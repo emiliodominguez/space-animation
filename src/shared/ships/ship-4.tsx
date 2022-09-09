@@ -2,106 +2,42 @@ export const ship4 = (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		xmlnsXlink="http://www.w3.org/1999/xlink"
-		viewBox="0 0 143.75 120.6"
+		viewBox="0 0 171.76 131.55"
 	>
 		<defs>
 			<path
-				d="M107.38 89.76c-6.08-24-28.47-.85-28.47-.85A70.64 70.64 0 0 1 91 97.44c7.24 6.48 13.08 15.55 2 23.16 0 0 20.46-6.88 14.38-30.84Z"
-				style={{ fill: "url(#s4-linear-gradient-11)" }}
+				d="M19.41 61.63c.7-11.1 9.78-30.42 62.56-35.83 0 0-36.86 14.47-37.61 34.93L26.89 67.2a5.56 5.56 0 0 1-7.48-5.57Z"
+				style={{ fill: "url(#s4-linear-gradient-8)" }}
 				id="s4-reuse-0"
 			/>
 			<path
-				d="M36.29 102.72c-1.77 7.53 9.71 15.34 9.71 15.34-10.24-8.67-3.51-17.11 4.33-22.84l-7-2.43s-5.28 2.4-7.04 9.93Z"
-				style={{ fill: "url(#s4-linear-gradient-15)" }}
+				d="M115.36 52.14c-1.74 5.36-17.26 12.22-36.89 12.48S43.79 55.68 41.62 51c-2.34 1.39-4.24 10.14-4.22 11.72.1 5.91 18.75 12 41.45 11.68s40.89-7.12 40.79-13c-.03-1.64-1.9-7.95-4.28-9.26Z"
+				style={{ fill: "url(#s4-linear-gradient-19)" }}
 				id="s4-reuse-1"
 			/>
 			<path
-				style={{ fill: "#480087" }}
-				d="m68.4 92.17 3.03 18.86 6.75-24.57-9.78 5.71z"
+				d="M52.33 83s1 3.16 6.21 3a12.67 12.67 0 0 0 8.62-4s2.13 1.06 1.68 2.8-4.68 5-11.3 4.55-9.07-3.99-5.21-6.35Z"
+				style={{ fill: "url(#s4-linear-gradient-25)" }}
 				id="s4-reuse-2"
+			/>
+			<path
+				d="M10.22 67.81s.95 3.16 6.21 3a12.67 12.67 0 0 0 8.61-4s2.14 1.07 1.69 2.8-4.68 5-11.3 4.55-9.07-4.03-5.21-6.35Z"
+				style={{ fill: "url(#s4-linear-gradient-32)" }}
+				id="s4-reuse-3"
+			/>
+			<path
+				d="M109.2 75.28c.7-11.1 9.78-30.41 62.56-35.82 0 0-36.87 14.46-37.61 34.92l-17.47 6.48a5.56 5.56 0 0 1-7.48-5.58Z"
+				style={{ fill: "url(#s4-linear-gradient-43)" }}
+				id="s4-reuse-4"
 			/>
 		</defs>
 		<defs>
 			<linearGradient
 				id="s4-linear-gradient"
-				x1="64.44"
-				y1="76.92"
-				x2="79.05"
-				y2="76.92"
-				gradientTransform="rotate(18.2 119.334 -52.731)"
-				gradientUnits="userSpaceOnUse"
-			>
-				<stop offset="0" stopColor="#0090ff" />
-				<stop offset=".52" stopColor="#00c8ff" />
-				<stop offset="1" stopColor="#0ff" />
-			</linearGradient>
-			<linearGradient
-				id="s4-linear-gradient-2"
-				x1="65.47"
-				y1="76.92"
-				x2="78.02"
-				y2="76.92"
-				gradientTransform="rotate(18.2 119.334 -52.731)"
-				gradientUnits="userSpaceOnUse"
-			>
-				<stop offset="0" stopColor="#8dffff" />
-				<stop offset=".28" stopColor="#62ffff" />
-				<stop offset=".77" stopColor="#1cffff" />
-				<stop offset="1" stopColor="#0ff" />
-			</linearGradient>
-			<linearGradient
-				id="s4-linear-gradient-3"
-				x1="68.11"
-				y1="73.28"
-				x2="75.38"
-				y2="80.55"
-				gradientTransform="rotate(18.2 119.334 -52.731)"
-				gradientUnits="userSpaceOnUse"
-			>
-				<stop offset="0" stopColor="#fff" />
-				<stop offset="0" stopColor="#fefefe" />
-				<stop offset=".17" stopColor="#bcbcbc" />
-				<stop offset=".33" stopColor="#838383" />
-				<stop offset=".49" stopColor="#545454" />
-				<stop offset=".64" stopColor="#2f2f2f" />
-				<stop offset=".78" stopColor="#151515" />
-				<stop offset=".9" stopColor="#060606" />
-				<stop offset="1" />
-			</linearGradient>
-			<linearGradient
-				id="s4-linear-gradient-4"
-				x1="35.34"
-				y1="72.6"
-				x2="52.49"
-				y2="72"
-				gradientTransform="translate(-5.95 -13.43)"
-				gradientUnits="userSpaceOnUse"
-			>
-				<stop offset="0" stopColor="#a81ba4" />
-				<stop offset=".21" stopColor="#a219a4" />
-				<stop offset=".47" stopColor="#9313a4" />
-				<stop offset=".76" stopColor="#790aa4" />
-				<stop offset="1" stopColor="#5e00a4" />
-			</linearGradient>
-			<linearGradient
-				id="s4-linear-gradient-5"
-				x1="36.59"
-				y1="72.6"
-				x2="50.11"
-				y2="72.12"
-				gradientTransform="translate(-5.95 -13.43)"
-				gradientUnits="userSpaceOnUse"
-			>
-				<stop offset="0" stopColor="#ff81ff" />
-				<stop offset=".72" />
-			</linearGradient>
-			<linearGradient
-				id="s4-linear-gradient-6"
-				x1="44.55"
-				y1="58.5"
-				x2="118.03"
-				y2="58.5"
-				gradientTransform="rotate(69.6 83.21 46.808)"
+				x1="55.53"
+				y1="98.68"
+				x2="101.31"
+				y2="98.68"
 				gradientUnits="userSpaceOnUse"
 			>
 				<stop offset="0" stopColor="#f60" />
@@ -110,12 +46,11 @@ export const ship4 = (
 				<stop offset="1" stopColor="#ff8e00" />
 			</linearGradient>
 			<linearGradient
-				id="s4-linear-gradient-7"
-				x1="47.68"
-				y1="58.5"
-				x2="114.9"
-				y2="58.5"
-				gradientTransform="rotate(54.75 85.914 45.1)"
+				id="s4-linear-gradient-2"
+				x1="57.48"
+				y1="98.68"
+				x2="99.37"
+				y2="98.68"
 				gradientUnits="userSpaceOnUse"
 			>
 				<stop offset="0" stopColor="#ff8b00" />
@@ -123,12 +58,243 @@ export const ship4 = (
 				<stop offset="1" stopColor="#ffce00" />
 			</linearGradient>
 			<linearGradient
+				id="s4-linear-gradient-3"
+				x1="78.42"
+				y1="79.55"
+				x2="78.42"
+				y2="117.81"
+				gradientUnits="userSpaceOnUse"
+			>
+				<stop offset="0" stopColor="#fff" />
+				<stop offset=".14" stopColor="#c9c9c9" />
+				<stop offset=".31" stopColor="#8d8d8d" />
+				<stop offset=".48" stopColor="#5b5b5b" />
+				<stop offset=".64" stopColor="#333" />
+				<stop offset=".78" stopColor="#171717" />
+				<stop offset=".91" stopColor="#060606" />
+				<stop offset="1" />
+			</linearGradient>
+			<linearGradient
+				id="s4-linear-gradient-4"
+				x1="50.69"
+				y1="104.48"
+				x2="109.97"
+				y2="104.48"
+				gradientUnits="userSpaceOnUse"
+			>
+				<stop offset="0" stopColor="#9dcbc3" />
+				<stop offset=".2" stopColor="#9ec7c3" />
+				<stop offset=".39" stopColor="#a0bbc4" />
+				<stop offset=".58" stopColor="#a5a8c6" />
+				<stop offset=".77" stopColor="#aa8dc8" />
+				<stop offset=".95" stopColor="#b26acb" />
+				<stop offset="1" stopColor="#b460cc" />
+			</linearGradient>
+			<linearGradient
+				id="s4-linear-gradient-5"
+				x1="50.69"
+				y1="104.48"
+				x2="109.97"
+				y2="104.48"
+				gradientUnits="userSpaceOnUse"
+			>
+				<stop offset="0" stopColor="#7c00ff" />
+				<stop offset=".11" stopColor="#7d06fd" />
+				<stop offset=".25" stopColor="#7f15f9" />
+				<stop offset=".41" stopColor="#842ff1" />
+				<stop offset=".58" stopColor="#8a54e6" />
+				<stop offset=".76" stopColor="#9182d8" />
+				<stop offset=".95" stopColor="#9abbc8" />
+				<stop offset="1" stopColor="#9dcbc3" />
+			</linearGradient>
+			<linearGradient
+				id="s4-linear-gradient-6"
+				x1="48.52"
+				y1="101.48"
+				x2="112.14"
+				y2="101.48"
+				xlinkHref="#s4-linear-gradient-5"
+			/>
+			<linearGradient
 				id="s4-linear-gradient-8"
-				x1="29.64"
-				y1="-128.02"
-				x2="29.64"
-				y2="-91.32"
-				gradientTransform="translate(38 145.43)"
+				x1="19.4"
+				y1="46.68"
+				x2="81.97"
+				y2="46.68"
+				xlinkHref="#s4-linear-gradient-4"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-9"
+				x1="19.4"
+				y1="46.68"
+				x2="81.97"
+				y2="46.68"
+				xlinkHref="#s4-linear-gradient-5"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-10"
+				x1="19.4"
+				y1="46.5"
+				x2="81.97"
+				y2="46.5"
+				gradientUnits="userSpaceOnUse"
+			>
+				<stop offset="0" stopColor="#a81ba4" />
+				<stop offset=".12" stopColor="#a821a5" />
+				<stop offset=".28" stopColor="#a730a8" />
+				<stop offset=".45" stopColor="#a54aac" />
+				<stop offset=".64" stopColor="#a36fb3" />
+				<stop offset=".83" stopColor="#a09dbb" />
+				<stop offset="1" stopColor="#9dcbc3" />
+			</linearGradient>
+			<linearGradient
+				id="s4-linear-gradient-11"
+				x1="22.49"
+				y1="50.34"
+				x2="35.04"
+				y2="50.34"
+				gradientUnits="userSpaceOnUse"
+			>
+				<stop offset="0" stopColor="#fff" />
+				<stop offset=".15" stopColor="#cecece" />
+				<stop offset=".38" stopColor="#868686" />
+				<stop offset=".59" stopColor="#4c4c4c" />
+				<stop offset=".77" stopColor="#232323" />
+				<stop offset=".92" stopColor="#090909" />
+				<stop offset="1" />
+			</linearGradient>
+			<linearGradient
+				id="s4-linear-gradient-12"
+				x1="-25.63"
+				y1="43.15"
+				x2="122.53"
+				y2="43.15"
+				gradientTransform="rotate(17.48 -55.66 151.613)"
+				xlinkHref="#s4-linear-gradient-4"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-13"
+				x1="121.96"
+				y1="17.43"
+				x2="122.43"
+				y2="17.43"
+				gradientTransform="rotate(17.48 -55.66 151.613)"
+				xlinkHref="#s4-linear-gradient-5"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-14"
+				x1="-231.87"
+				y1="46.72"
+				x2="177.15"
+				y2="46.72"
+				gradientTransform="rotate(17.48 -55.66 151.613)"
+				xlinkHref="#s4-linear-gradient-5"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-15"
+				x1="-59.93"
+				y1=".44"
+				x2="137.63"
+				y2="62.67"
+				gradientTransform="rotate(90 76.585 45.105)"
+				gradientUnits="userSpaceOnUse"
+			>
+				<stop offset="0" stopColor="#057300" />
+				<stop offset=".12" stopColor="#138a00" />
+				<stop offset=".41" stopColor="#33bc00" />
+				<stop offset=".66" stopColor="#4ae100" />
+				<stop offset=".87" stopColor="#58f700" />
+				<stop offset="1" stopColor="#5dff00" />
+			</linearGradient>
+			<linearGradient
+				id="s4-linear-gradient-16"
+				x1="-43.92"
+				y1="5.48"
+				x2="130.29"
+				y2="60.35"
+				gradientTransform="rotate(90 76.585 45.105)"
+				gradientUnits="userSpaceOnUse"
+			>
+				<stop offset="0" stopColor="#b0ff00" />
+				<stop offset="1" stopColor="#5dff00" />
+			</linearGradient>
+			<linearGradient
+				id="s4-linear-gradient-17"
+				x1="105.73"
+				y1="17.1"
+				x2="107.33"
+				y2="62.41"
+				gradientTransform="matrix(.88 .08 -.09 1 -18.25 -17.74)"
+				xlinkHref="#s4-linear-gradient-3"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-18"
+				x1="75.55"
+				y1="42.43"
+				x2="75.55"
+				y2="72.2"
+				gradientTransform="rotate(1.07 27.652 208.589)"
+				gradientUnits="userSpaceOnUse"
+			>
+				<stop offset="0" stopColor="#3dcd00" />
+				<stop offset=".08" stopColor="#44cf09" />
+				<stop offset=".22" stopColor="#56d421" />
+				<stop offset=".4" stopColor="#74db49" />
+				<stop offset=".6" stopColor="#9ee680" />
+				<stop offset=".83" stopColor="#d3f4c5" />
+				<stop offset="1" stopColor="#fff" />
+			</linearGradient>
+			<linearGradient
+				id="s4-linear-gradient-19"
+				x1="39.58"
+				y1="66.27"
+				x2="131.59"
+				y2="66.27"
+				gradientTransform="matrix(.89 -.01 .02 1 .95 -2.64)"
+				xlinkHref="#s4-linear-gradient-4"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-20"
+				x1="39.58"
+				y1="66.27"
+				x2="131.59"
+				y2="66.27"
+				gradientTransform="matrix(.89 -.01 .02 1 .95 -2.64)"
+				xlinkHref="#s4-linear-gradient-5"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-21"
+				x1="57.07"
+				y1="83.15"
+				x2="73.76"
+				y2="83.15"
+				xlinkHref="#s4-linear-gradient-4"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-22"
+				x1="32.62"
+				y1="48.57"
+				x2="48.31"
+				y2="48.57"
+				gradientTransform="matrix(.97 .26 -.26 .97 33 22.66)"
+				xlinkHref="#s4-linear-gradient"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-23"
+				x1="33.73"
+				y1="48.57"
+				x2="47.21"
+				y2="48.57"
+				gradientTransform="matrix(.97 .26 -.26 .97 33 22.66)"
+				xlinkHref="#s4-linear-gradient-2"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-24"
+				x1="36.57"
+				y1="44.67"
+				x2="44.37"
+				y2="52.48"
+				gradientTransform="matrix(.97 .26 -.26 .97 33 22.66)"
 				gradientUnits="userSpaceOnUse"
 			>
 				<stop offset="0" stopColor="#f8e82f" />
@@ -138,388 +304,282 @@ export const ship4 = (
 				<stop offset="1" />
 			</linearGradient>
 			<linearGradient
-				id="s4-linear-gradient-9"
-				x1="81.29"
-				y1="46.84"
-				x2="81.29"
-				y2="95.24"
-				gradientTransform="translate(-5.95 -13.43)"
-				gradientUnits="userSpaceOnUse"
-			>
-				<stop offset="0" stopColor="#f60" />
-				<stop offset=".08" stopColor="#ff6b09" />
-				<stop offset=".22" stopColor="#ff7a21" />
-				<stop offset=".4" stopColor="#ff9249" />
-				<stop offset=".6" stopColor="#ffb380" />
-				<stop offset=".83" stopColor="#ffdcc5" />
-				<stop offset="1" stopColor="#fff" />
-			</linearGradient>
-			<linearGradient
-				id="s4-linear-gradient-10"
-				x1="236.39"
-				y1="58.54"
-				x2="280.71"
-				y2="58.54"
-				gradientTransform="matrix(-.98 .21 .21 .98 288.37 -24.27)"
-				xlinkHref="#s4-linear-gradient-4"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-11"
-				x1="75.98"
-				y1="107.99"
-				x2="135.36"
-				y2="107.99"
-				xlinkHref="#s4-linear-gradient-4"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-12"
-				x1="133.84"
-				y1="107.99"
-				x2="74.46"
-				y2="107.99"
-				xlinkHref="#s4-linear-gradient-4"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-13"
-				x1="81.41"
-				y1="112.79"
-				x2="109.1"
-				y2="112.79"
-				gradientTransform="rotate(18.2 119.334 -52.731)"
-				xlinkHref="#s4-linear-gradient-4"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-14"
-				x1="117"
-				y1="90.62"
-				x2="161.32"
-				y2="90.62"
-				gradientTransform="rotate(18.2 119.334 -52.731)"
-				xlinkHref="#s4-linear-gradient-4"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-15"
-				x1="81.4"
-				y1="121.28"
-				x2="109.1"
-				y2="121.28"
-				gradientTransform="rotate(18.2 119.334 -52.731)"
-				xlinkHref="#s4-linear-gradient-4"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-16"
-				x1="94.9"
-				y1="109.65"
-				x2="94.9"
-				y2="132.9"
-				gradientTransform="rotate(18.2 119.334 -52.731)"
-				xlinkHref="#s4-linear-gradient-4"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-17"
-				x1="43"
-				y1="82.74"
-				x2="180.95"
-				y2="82.74"
-				gradientTransform="rotate(18.2 119.334 -52.731)"
-				gradientUnits="userSpaceOnUse"
-			>
-				<stop offset="0" stopColor="#f4daa2" />
-				<stop offset=".2" stopColor="#f2d6a0" />
-				<stop offset=".4" stopColor="#edca99" />
-				<stop offset=".59" stopColor="#e5b78f" />
-				<stop offset=".79" stopColor="#d99c80" />
-				<stop offset=".98" stopColor="#ca796d" />
-				<stop offset="1" stopColor="#c8746a" />
-			</linearGradient>
-			<linearGradient
-				id="s4-linear-gradient-18"
-				x1="172.18"
-				y1="36.92"
-				x2="145.99"
-				y2="82.27"
-				gradientTransform="rotate(18.2 119.334 -52.731)"
-				gradientUnits="userSpaceOnUse"
-			>
-				<stop offset="0" stopColor="#a822a4" />
-				<stop offset=".13" stopColor="#ab28a4" />
-				<stop offset=".29" stopColor="#b237a4" />
-				<stop offset=".48" stopColor="#bf51a3" />
-				<stop offset=".68" stopColor="#d076a3" />
-				<stop offset=".88" stopColor="#e6a4a2" />
-				<stop offset="1" stopColor="#f4c1a2" />
-			</linearGradient>
-			<linearGradient
-				id="s4-linear-gradient-19"
-				x1="139.29"
-				y1="70.99"
-				x2="108.7"
-				y2="123.97"
-				xlinkHref="#s4-linear-gradient-18"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-20"
-				x1="180.41"
-				y1="58.8"
-				x2="180.85"
-				y2="58.8"
-				gradientTransform="rotate(18.2 119.334 -52.731)"
-				gradientUnits="userSpaceOnUse"
-			>
-				<stop offset="0" stopColor="#a81ba4" />
-				<stop offset=".13" stopColor="#ab21a4" />
-				<stop offset=".29" stopColor="#b230a4" />
-				<stop offset=".47" stopColor="#be4aa3" />
-				<stop offset=".66" stopColor="#ce6fa3" />
-				<stop offset=".86" stopColor="#e39da2" />
-				<stop offset="1" stopColor="#f4c1a2" />
-			</linearGradient>
-			<linearGradient
-				id="s4-linear-gradient-21"
-				x1="-149.01"
-				y1="86.06"
-				x2="231.8"
-				y2="86.06"
-				xlinkHref="#s4-linear-gradient-20"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-22"
-				x1="84.7"
-				y1="93.09"
-				x2="84.7"
-				y2="171.88"
-				gradientTransform="rotate(18.2 119.334 -52.731)"
-				gradientUnits="userSpaceOnUse"
-			>
-				<stop offset="0" stopColor="#f8e82f" />
-				<stop offset=".06" stopColor="#c4b825" />
-				<stop offset=".13" stopColor="#978d1d" />
-				<stop offset=".19" stopColor="#6e6715" />
-				<stop offset=".26" stopColor="#4c470e" />
-				<stop offset=".34" stopColor="#302d09" />
-				<stop offset=".42" stopColor="#1b1905" />
-				<stop offset=".51" stopColor="#0c0b02" />
-				<stop offset=".62" stopColor="#030301" />
-				<stop offset=".77" />
-			</linearGradient>
-			<linearGradient
-				id="s4-linear-gradient-23"
-				x1="77.28"
-				y1="57.96"
-				x2="77.28"
-				y2="75.57"
-				gradientTransform="rotate(.85 642.207 -300.016)"
-				xlinkHref="#s4-linear-gradient-9"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-24"
-				x1="34.09"
-				y1="70.54"
-				x2="119.75"
-				y2="70.54"
-				gradientTransform="rotate(.85 642.207 -300.016)"
-				xlinkHref="#s4-linear-gradient-4"
-			/>
-			<linearGradient
 				id="s4-linear-gradient-25"
-				x1="37.26"
-				y1="70.26"
-				x2="114.78"
-				y2="70.26"
-				gradientTransform="rotate(.85 642.207 -300.016)"
-				xlinkHref="#s4-linear-gradient-5"
+				x1="50.52"
+				y1="86.19"
+				x2="68.95"
+				y2="85.54"
+				xlinkHref="#s4-linear-gradient-4"
 			/>
 			<linearGradient
 				id="s4-linear-gradient-26"
-				x1="55.82"
-				y1="88.47"
-				x2="71.36"
-				y2="88.47"
-				gradientTransform="translate(-5.95 -13.43)"
-				xlinkHref="#s4-linear-gradient-18"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-27"
-				x1="135.32"
-				y1="76.02"
-				x2="122.6"
-				y2="76.02"
-				gradientTransform="translate(-5.95 -13.43)"
-				xlinkHref="#s4-linear-gradient-18"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-28"
-				x1="82.09"
-				y1="91.58"
-				x2="96.7"
-				y2="91.58"
-				xlinkHref="#s4-linear-gradient"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-29"
-				x1="83.12"
-				y1="91.58"
-				x2="95.67"
-				y2="91.58"
-				xlinkHref="#s4-linear-gradient-2"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-30"
-				x1="85.76"
-				y1="87.94"
-				x2="93.03"
-				y2="95.21"
-				xlinkHref="#s4-linear-gradient-3"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-31"
-				x1="48.61"
-				y1="91.32"
-				x2="65.77"
-				y2="90.72"
-				xlinkHref="#s4-linear-gradient-4"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-32"
-				x1="49.87"
-				y1="91.31"
-				x2="63.39"
-				y2="90.84"
+				x1="50.52"
+				y1="86.19"
+				x2="68.95"
+				y2="85.54"
 				xlinkHref="#s4-linear-gradient-5"
 			/>
 			<linearGradient
-				id="s4-linear-gradient-33"
-				x1="146.04"
-				y1="62.39"
-				x2="159.29"
-				y2="62.39"
-				xlinkHref="#s4-linear-gradient"
+				id="s4-linear-gradient-27"
+				x1="51.87"
+				y1="86.18"
+				x2="66.39"
+				y2="85.67"
+				xlinkHref="#s4-linear-gradient-11"
 			/>
 			<linearGradient
-				id="s4-linear-gradient-34"
-				x1="146.98"
-				y1="62.39"
-				x2="158.36"
-				y2="62.39"
-				xlinkHref="#s4-linear-gradient-2"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-35"
-				x1="149.37"
-				y1="59.09"
-				x2="155.97"
-				y2="65.68"
-				xlinkHref="#s4-linear-gradient-3"
-			/>
-			<linearGradient
-				id="s4-linear-gradient-36"
-				x1="118.06"
-				y1="78.89"
-				x2="133.62"
-				y2="78.34"
+				id="s4-linear-gradient-28"
+				x1="14.95"
+				y1="67.92"
+				x2="31.65"
+				y2="67.92"
 				xlinkHref="#s4-linear-gradient-4"
 			/>
 			<linearGradient
+				id="s4-linear-gradient-29"
+				x1="-11.99"
+				y1="44.72"
+				x2="3.7"
+				y2="44.72"
+				gradientTransform="matrix(.97 .26 -.26 .97 33 22.66)"
+				xlinkHref="#s4-linear-gradient"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-30"
+				x1="-10.88"
+				y1="44.72"
+				x2="2.6"
+				y2="44.72"
+				gradientTransform="matrix(.97 .26 -.26 .97 33 22.66)"
+				xlinkHref="#s4-linear-gradient-2"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-31"
+				x1="-8.05"
+				y1="40.81"
+				x2="-.24"
+				y2="48.62"
+				xlinkHref="#s4-linear-gradient-24"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-32"
+				x1="8.4"
+				y1="70.96"
+				x2="26.83"
+				y2="70.31"
+				xlinkHref="#s4-linear-gradient-4"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-33"
+				x1="8.4"
+				y1="70.96"
+				x2="26.83"
+				y2="70.31"
+				xlinkHref="#s4-linear-gradient-5"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-34"
+				x1="9.76"
+				y1="70.95"
+				x2="24.28"
+				y2="70.44"
+				xlinkHref="#s4-linear-gradient-11"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-35"
+				x1="40.36"
+				y1="62.79"
+				x2="93.8"
+				y2="62.79"
+				xlinkHref="#s4-linear-gradient-11"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-36"
+				x1="5.56"
+				y1="78.55"
+				x2="46.45"
+				y2="78.55"
+				xlinkHref="#s4-linear-gradient-5"
+			/>
+			<linearGradient
 				id="s4-linear-gradient-37"
-				x1="119.2"
-				y1="78.88"
-				x2="131.46"
-				y2="78.45"
+				x1="69.58"
+				y1="90.7"
+				x2="79.49"
+				y2="90.7"
 				xlinkHref="#s4-linear-gradient-5"
 			/>
 			<linearGradient
 				id="s4-linear-gradient-38"
-				x1="64.94"
-				y1="97.58"
-				x2="133.88"
-				y2="97.58"
-				gradientTransform="translate(-5.95 -13.43)"
-				xlinkHref="#s4-linear-gradient-20"
+				x1="131.99"
+				y1="73.59"
+				x2="154.41"
+				y2="73.59"
+				xlinkHref="#s4-linear-gradient-5"
 			/>
 			<linearGradient
 				id="s4-linear-gradient-39"
-				x1="13.24"
-				y1="80.17"
-				x2="34.98"
-				y2="80.17"
-				gradientTransform="translate(-5.95 -13.43)"
-				xlinkHref="#s4-linear-gradient-20"
+				x1="78.43"
+				y1="85.09"
+				x2="85.92"
+				y2="85.09"
+				xlinkHref="#s4-linear-gradient-5"
 			/>
 			<linearGradient
 				id="s4-linear-gradient-40"
-				x1="64.94"
-				y1="97.53"
-				x2="133.88"
-				y2="97.53"
-				gradientTransform="translate(-5.95 -13.43)"
-				xlinkHref="#s4-linear-gradient-20"
+				x1="93.35"
+				y1="92.65"
+				x2="132.71"
+				y2="92.65"
+				xlinkHref="#s4-linear-gradient-5"
 			/>
 			<linearGradient
 				id="s4-linear-gradient-41"
-				x1="13.24"
-				y1="80.18"
-				x2="34.27"
-				y2="80.18"
-				gradientTransform="translate(-5.95 -13.43)"
-				xlinkHref="#s4-linear-gradient-20"
+				x1="132.07"
+				y1="73.22"
+				x2="154.41"
+				y2="73.22"
+				xlinkHref="#s4-linear-gradient-5"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-42"
+				x1="128.16"
+				y1="70.11"
+				x2="146.8"
+				y2="70.11"
+				xlinkHref="#s4-linear-gradient-4"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-43"
+				x1="109.19"
+				y1="60.33"
+				x2="171.76"
+				y2="60.33"
+				xlinkHref="#s4-linear-gradient-4"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-44"
+				x1="109.19"
+				y1="60.33"
+				x2="171.76"
+				y2="60.33"
+				xlinkHref="#s4-linear-gradient-5"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-45"
+				x1="109.19"
+				y1="60.16"
+				x2="171.76"
+				y2="60.16"
+				xlinkHref="#s4-linear-gradient-10"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-46"
+				x1="112.28"
+				y1="63.99"
+				x2="124.83"
+				y2="63.99"
+				xlinkHref="#s4-linear-gradient-11"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-47"
+				x1="93.35"
+				y1="92.65"
+				x2="132.32"
+				y2="92.65"
+				xlinkHref="#s4-linear-gradient-5"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-48"
+				x1="69.58"
+				y1="90.71"
+				x2="78.85"
+				y2="90.71"
+				xlinkHref="#s4-linear-gradient-5"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-49"
+				x1="78.43"
+				y1="85.09"
+				x2="85.34"
+				y2="85.09"
+				xlinkHref="#s4-linear-gradient-5"
+			/>
+			<linearGradient
+				id="s4-linear-gradient-50"
+				x1="5.56"
+				y1="78.38"
+				x2="45.66"
+				y2="78.38"
+				xlinkHref="#s4-linear-gradient-5"
 			/>
 			<radialGradient
 				id="s4-radial-gradient"
-				cx="71.74"
-				cy="76.92"
-				r="10.66"
-				gradientTransform="rotate(18.2 119.334 -52.731)"
+				cx="89.35"
+				cy="89.39"
+				r="29.27"
+				gradientTransform="matrix(-.08 .93 -.82 -.09 157.78 32.93)"
 				gradientUnits="userSpaceOnUse"
 			>
-				<stop offset="0" stopColor="#00ffbf" />
-				<stop offset=".18" stopColor="#00c392" />
-				<stop offset=".4" stopColor="#007f5f" />
-				<stop offset=".6" stopColor="#004836" />
-				<stop offset=".78" stopColor="#002119" />
-				<stop offset=".92" stopColor="#000907" />
-				<stop offset="1" />
+				<stop offset="0" stopColor="#fff325" />
+				<stop offset=".5" stopColor="#9c9417" />
+				<stop offset="1" stopColor="#0000" />
 			</radialGradient>
 			<radialGradient
 				id="s4-radial-gradient-2"
-				cx="41.16"
-				cy="85.82"
-				r="53.02"
-				gradientTransform="matrix(0 .91 -.83 0 144.56 6.69)"
+				cx="61.44"
+				cy="41.24"
+				r="47.34"
+				gradientTransform="matrix(.91 0 0 .83 22.52 5.09)"
 				gradientUnits="userSpaceOnUse"
 			>
-				<stop offset="0" stopColor="#ffbf00" />
-				<stop offset=".5" stopColor="#b68800" />
+				<stop offset="0" stopColor="#3dcc00" />
+				<stop offset=".5" stopColor="#278300" />
 				<stop offset="1" stopColor="#0000" />
 			</radialGradient>
 			<radialGradient
 				id="s4-radial-gradient-3"
-				cx="89.4"
-				cy="91.58"
-				r="10.66"
-				xlinkHref="#s4-radial-gradient"
-			/>
+				cx="40.47"
+				cy="48.57"
+				r="11.45"
+				gradientTransform="matrix(.97 .26 -.26 .97 33 22.66)"
+				gradientUnits="userSpaceOnUse"
+			>
+				<stop offset="0" stopColor="#ffec12" />
+				<stop offset=".5" stopColor="#484305" />
+				<stop offset="1" stopColor="#0000" />
+			</radialGradient>
 			<radialGradient
 				id="s4-radial-gradient-4"
-				cx="152.67"
-				cy="62.39"
-				r="9.67"
-				gradientTransform="matrix(.7 .71 -.71 .7 52.65 -85.86)"
-				xlinkHref="#s4-radial-gradient"
+				cx="-4.14"
+				cy="44.72"
+				r="11.45"
+				gradientTransform="rotate(45.36 -17.367 80.62)"
+				xlinkHref="#s4-radial-gradient-3"
 			/>
 		</defs>
 		<g style={{ isolation: "isolate" }}>
 			<g id="Capa_2" data-name="Capa 2">
 				<g id="Layer_3" data-name="Layer 3">
-					<path
-						d="M41.37 57.77a7.31 7.31 0 1 1-4.72-9.19 7.3 7.3 0 0 1 4.72 9.19Z"
+					<circle
+						cx="78.42"
+						cy="98.68"
+						r="22.89"
 						style={{ fill: "url(#s4-linear-gradient)" }}
 					/>
-					<path
-						d="M40.39 57.45a6.27 6.27 0 1 1-4-7.89 6.27 6.27 0 0 1 4 7.89Z"
-						style={{ fill: "url(#s4-linear-gradient-2)" }}
+					<circle
+						cx="78.42"
+						cy="98.68"
+						r="20.94"
+						style={{
+							fill: "url(#s4-linear-gradient-2)",
+							opacity: 0.67,
+						}}
 					/>
-					<path
-						d="M39.31 57.11A5.14 5.14 0 1 1 36 50.64a5.14 5.14 0 0 1 3.31 6.47Z"
+					<circle
+						cx="78.42"
+						cy="98.68"
+						r="19.13"
 						style={{
 							fill: "url(#s4-linear-gradient-3)",
 							mixBlendMode: "screen",
@@ -527,308 +587,387 @@ export const ship4 = (
 					/>
 					<path
 						className="s4-cls-5"
-						d="M36 49.69c-.2-.74-1.56-1-3.05-.64s-2.54 1.31-2.35 2.05 1.56 1 3.05.63 2.5-1.3 2.35-2.04Z"
-						style={{ opacity: 0.25 }}
+						d="M79.64 84.39c1 2.14-1.71 5.63-6.16 7.8s-8.89 2.18-9.94 0 1.72-5.62 6.17-7.79 8.89-2.15 9.93-.01Z"
 					/>
-					<path
-						d="M27.54 58s.74 3 5.64 3.12a11.77 11.77 0 0 0 8.19-3.35s1.94 1.09 1.44 2.68-4.59 4.43-10.72 3.7S23.85 60 27.54 58Z"
-						style={{ fill: "url(#s4-linear-gradient-4)" }}
-					/>
-					<path
-						d="M27.43 58.68s.53 3.06 5.8 3 7.29-2.4 7.29-2.4-2.71 3.82-6.94 4-7.91-2.17-6.15-4.6Z"
+					<ellipse
+						cx="77.56"
+						cy="107.5"
+						rx="24.03"
+						ry="27.24"
+						transform="rotate(-85.79 77.562 107.499)"
 						style={{
-							fill: "url(#s4-linear-gradient-5)",
-							mixBlendMode: "screen",
-						}}
-					/>
-					<path
-						d="M44.57 58.8a10.66 10.66 0 1 1-6.89-13.42 10.66 10.66 0 0 1 6.89 13.42Z"
-						style={{
+							opacity: 0.64,
 							fill: "url(#s4-radial-gradient)",
 							mixBlendMode: "screen",
 						}}
 					/>
-					<circle
-						cx="72.31"
-						cy="49.06"
-						r="36.74"
-						transform="rotate(-66.46 72.31 49.063)"
-						style={{ fill: "url(#s4-linear-gradient-6)" }}
+					<ellipse
+						cx="80.33"
+						cy="104.48"
+						rx="29.64"
+						ry="8.48"
+						style={{ fill: "url(#s4-linear-gradient-4)}" }}
 					/>
-					<circle
-						cx="72.31"
-						cy="49.06"
-						r="33.61"
-						transform="rotate(-51.88 72.31 49.054)"
+					<ellipse
+						cx="80.33"
+						cy="104.48"
+						rx="29.64"
+						ry="8.48"
+						style={{ fill: "url(#s4-linear-gradient-5)" }}
+						className="s4-cls-8"
+					/>
+					<g className="s4-cls-8">
+						<ellipse
+							cx="80.33"
+							cy="101.48"
+							rx="31.81"
+							ry="8.48"
+							style={{ fill: "url(#s4-linear-gradient-6)" }}
+						/>
+						<ellipse
+							cx="80.33"
+							cy="101.48"
+							rx="31.81"
+							ry="8.48"
+							style={{
+								fill: "url(#s4-linear-gradient-6)",
+								mixBlendMode: "multiply",
+							}}
+						/>
+					</g>
+					<use
+						style={{ fill: "url(#s4-linear-gradient-8)" }}
+						xlinkHref="#s4-reuse-0"
+					/>
+					<use
 						style={{
-							opacity: 0.67,
-							fill: "url(#s4-linear-gradient-7)",
+							fill: "url(#s4-linear-gradient-9)",
+							mixBlendMode: "multiply",
+						}}
+						xlinkHref="#s4-reuse-0"
+					/>
+					<path
+						d="M82 25.8c-47.66 8.8-55.11 41.4-55.11 41.4l17.47-6.47C45.11 40.27 82 25.8 82 25.8Z"
+						style={{
+							fill: "url(#s4-linear-gradient-10)",
+							mixBlendMode: "multiply",
+						}}
+					/>
+					<path
+						d="M35 40.87s-13.43 9.07-12.5 17.3S35 40.87 35 40.87Z"
+						style={{
+							fill: "url(#s4-linear-gradient-11)",
+							opacity: 0.28,
+							mixBlendMode: "screen",
+						}}
+					/>
+					<path
+						d="M154.41 76.66c.07-10.44-34.41-19.16-77.07-19.47S.08 65.09 0 75.53C-.09 88 35.53 106.94 78.17 107.25s76.15-18.12 76.24-30.59Z"
+						style={{ fill: "url(#s4-linear-gradient-12)" }}
+					/>
+					<path
+						d="M154.32 77.49a4.68 4.68 0 0 0 .09-.83 6 6 0 0 1-.09.83Z"
+						style={{
+							fill: "url(#s4-linear-gradient-13)",
+							mixBlendMode: "multiply",
+						}}
+					/>
+					<path
+						d="M154.32 77.49c-1.08 6.25-13.68 13-32.75 17.28a194.85 194.85 0 0 1-43.34 4.33q-3.77 0-7.47-.19C31.51 97.28-.07 85.36 0 75.53c-.08 11.59 30.66 28.74 69.21 31.37 1.41.1 2.83.17 4.26.23h.24c1.48.06 3 .1 4.46.11h4.97l2.48-.08 1.43-.08 2.22-.13 1.48-.11 2.13-.19 1.47-.14c.71-.07 1.4-.15 2.1-.24l1.41-.17c.73-.09 1.44-.2 2.16-.3l1.28-.18 2.58-.43.77-.13c1.09-.2 2.15-.4 3.21-.62.42-.08.84-.18 1.26-.27.64-.14 1.29-.27 1.92-.42l1.41-.34 1.7-.41 1.43-.38 1.59-.43 1.42-.41 1.51-.46 1.39-.44c.5-.15 1-.32 1.47-.48l1.33-.45 1.5-.55 1.19-.43c16.12-6.21 26.51-14.62 27.34-21.48Z"
+						style={{
+							fill: "url(#s4-linear-gradient-14)",
+							mixBlendMode: "multiply",
 						}}
 					/>
 					<ellipse
-						cx="67.64"
-						cy="35.76"
-						rx="25.07"
-						ry="18.35"
-						transform="rotate(-20.9 67.631 35.768)"
+						cx="78.59"
+						cy="44.03"
+						rx="28.88"
+						ry="38.19"
+						transform="rotate(-88.93 78.583 44.033)"
+						style={{ fill: "url(#s4-linear-gradient-15)" }}
+					/>
+					<ellipse
+						cx="78.59"
+						cy="44.03"
+						rx="25.46"
+						ry="33.68"
+						transform="rotate(-88.93 78.583 44.033)"
+						style={{ fill: "url(#s4-linear-gradient-16)" }}
+					/>
+					<ellipse
+						cx="71.58"
+						cy="37.1"
+						rx="23.34"
+						ry="15.6"
+						transform="rotate(-11.42 71.543 37.103)"
 						style={{
-							fill: "url(#s4-linear-gradient-8)",
+							fill: "url(#s4-linear-gradient-17)",
 							mixBlendMode: "screen",
 						}}
 					/>
 					<path
 						className="s4-cls-5"
-						d="M75 20.13c1.6 3.74-3 9.3-10.33 12.42s-14.51 2.6-16.1-1.14 3-9.3 10.33-12.41 14.54-2.61 16.1 1.13Z"
-						style={{ opacity: 0.5 }}
+						d="M80.87 30.7c-.07 3.63-7.21 6.44-16 6.27s-15.76-3.23-15.7-6.86 7.21-6.44 16-6.27 15.77 3.23 15.7 6.86ZM109.59 32.08c0 2.35-2.88 4.21-6.34 4.14s-6.23-2-6.18-4.37 2.88-4.21 6.34-4.15 6.22 2.03 6.18 4.38Z"
+						style={{ opacity: 0.25 }}
 					/>
-					<g style={{ mixBlendMode: "multiply", opacity: 0.24 }}>
-						<path
-							d="M71.64 62.45a36.72 36.72 0 0 1-33.52-26.78 36.74 36.74 0 1 0 69.54 3.48 36.73 36.73 0 0 1-36.02 23.3Z"
-							style={{ fill: "url(#s4-linear-gradient-9)" }}
-						/>
-					</g>
 					<path
-						d="m28.41 85.23-.12.07a11.66 11.66 0 0 1 1-1.43s67 4 30.82 6.84a41.49 41.49 0 0 0-7.62 1.23l1.82-1.79Z"
-						style={{ fill: "url(#s4-linear-gradient-10)" }}
-					/>
-					<use
-						style={{ fill: "url(#s4-linear-gradient-11)" }}
-						xlinkHref="#s4-reuse-0"
-					/>
-					<use
+						d="M78.05 72.9c17.7.33 32.75-8.49 37.31-20.76-6.76-4.93-20.56-8.48-36.56-8.78-16.25-.3-30.35 2.82-37.18 7.61 4.2 12.33 18.83 21.6 36.43 21.93Z"
 						style={{
-							fill: "url(#s4-linear-gradient-12),opacity:.75,mixBlendMode:multiply",
-						}}
-						xlinkHref="#s4-reuse-0"
-					/>
-					<path
-						d="M34.83 86C26.39 109.17 46 118.06 46 118.06s-11.51-7.81-9.74-15.34 7.07-9.93 7.07-9.93l7 2.43a71.31 71.31 0 0 1 12.89-7.28S43.28 62.72 34.83 86Z"
-						style={{ fill: "url(#s4-linear-gradient-13)" }}
-					/>
-					<path
-						d="m113.86 89.33.12.08a10.7 10.7 0 0 0-.82-1.52s-67.07-2.76-31.35 3.73a41.13 41.13 0 0 1 7.46 2l-1.63-2Z"
-						style={{ fill: "url(#s4-linear-gradient-14)" }}
-					/>
-					<use
-						style={{ fill: "url(#s4-linear-gradient-15)" }}
-						xlinkHref="#s4-reuse-1"
-					/>
-					<use
-						style={{
-							fill: "url(#s4-linear-gradient-16)",
-							opacity: 0.75,
+							opacity: 0.7,
+							fill: "url(#s4-linear-gradient-18)",
 							mixBlendMode: "multiply",
 						}}
+					/>
+					<use
+						style={{ fill: "url(#s4-linear-gradient-19)" }}
 						xlinkHref="#s4-reuse-1"
 					/>
-					<use xlinkHref="#s4-reuse-2" style={{ fill: "#480087" }} />
+					<use
+						style={{ fill: "url(#s4-linear-gradient-20)" }}
+						className="s4-cls-8"
+						xlinkHref="#s4-reuse-1"
+					/>
+					<path
+						d="M57.07 81.63s14.06-8.08 16.41-2.7-10.41 10.45-13 10.28-3.41-7.58-3.41-7.58Z"
+						style={{
+							fill: "url(#s4-linear-gradient-21)",
+							opacity: 0.28,
+							mixBlendMode: "multiply",
+						}}
+					/>
+					<path
+						d="M67.16 82.05a7.85 7.85 0 1 1-5.56-9.6 7.86 7.86 0 0 1 5.56 9.6Z"
+						style={{ fill: "url(#s4-linear-gradient-22)" }}
+					/>
+					<path
+						d="M66.09 81.76a6.74 6.74 0 1 1-4.78-8.25 6.74 6.74 0 0 1 4.78 8.25Z"
+						style={{
+							fill: "url(#s4-linear-gradient-23)",
+							opacity: 0.67,
+						}}
+					/>
+					<path
+						d="M64.91 81.45A5.52 5.52 0 1 1 61 74.69a5.53 5.53 0 0 1 3.91 6.76Z"
+						style={{
+							fill: "url(#s4-linear-gradient-24)",
+							mixBlendMode: "screen",
+						}}
+					/>
+					<path
+						className="s4-cls-29"
+						d="M60.91 73.67c-.25-.79-1.73-1-3.3-.52S55 74.69 55.2 75.47s1.73 1 3.31.52 2.65-1.54 2.4-2.32Z"
+						style={{ opacity: 0.5 }}
+					/>
+					<use
+						style={{ fill: "url(#s4-linear-gradient-25)" }}
+						xlinkHref="#s4-reuse-2"
+					/>
 					<use
 						style={{
-							opacity: 0.53,
-							fill: "#480087",
+							fill: "url(#s4-linear-gradient-26)",
 							mixBlendMode: "multiply",
 						}}
 						xlinkHref="#s4-reuse-2"
 					/>
 					<path
-						d="m108.38 55.57-.53 5.53-5.56 3.16-10.46 3.32-16.8 1-12.19-.15-11-2.61-11.73-2.68-4.77-4.32L34.8 55l-.13-.21C14 57.6.08 63 0 69.36-.15 81 32.92 98.78 72.61 99.29s71-16.47 71.14-28.08c.08-6.47-14.14-12.31-35.37-15.64Z"
-						style={{ fill: "url(#s4-linear-gradient-17)" }}
-					/>
-					<path
-						d="m101.6 66.62 42.07 3.75c-1.09-6.1-14.8-11.55-34.9-14.74-3.93-.63 11.16 6.07.44 5-2.75-.31-5.85.92-7.61 5.99Z"
+						d="M52.25 83.77S53 87 58.63 86.65s7.69-3 7.69-3-2.7 4.24-7.23 4.62-8.61-1.79-6.84-4.5Z"
 						style={{
-							fill: "url(#s4-linear-gradient-18)",
-							opacity: 0.29,
-						}}
-					/>
-					<path
-						d="M45.89 66.29S27.1 60.79 36.2 57L25 56.38c-15.23 3-24.91 7.67-25 13 0 2.6 1.61 5.51 4.6 8.46l2.93.2Z"
-						style={{
-							fill: "#fff0d2",
-							opacity: 0.68,
-							mixBlendMode: "lighten",
-						}}
-					/>
-					<path
-						d="M113.08 87.9 93.51 67.19s-5.72 2.09-23.8 2.57L65.76 91.5c2.29.1 4.61.18 6.95.21a181.58 181.58 0 0 0 40.37-3.81Z"
-						style={{ fill: "url(#s4-linear-gradient-19),opacity:.29" }}
-					/>
-					<path
-						d="M143.66 72a5.18 5.18 0 0 0 .09-.78 6.9 6.9 0 0 1-.09.78Z"
-						style={{
-							fill: "url(#s4-linear-gradient-20)",
-							mixBlendMode: "multiply",
-						}}
-					/>
-					<path
-						d="M143.66 72c-1 5.81-12.8 12-30.58 15.91a181.58 181.58 0 0 1-40.37 3.81c-2.34 0-4.66-.11-6.95-.21C29.22 89.77-.12 78.51 0 69.36c-.14 10.79 28.39 26.91 64.27 29.56 1.31.1 2.64.18 4 .24h.22c1.38.06 2.76.1 4.15.12h4.62c.78 0 1.55 0 2.32-.06l1.33-.06L83 99l1.38-.1 2-.16 1.37-.13q1-.09 1.95-.21l1.3-.12c.68-.08 1.34-.18 2-.27l1.19-.16a93.1 93.1 0 0 0 2.41-.39c.24 0 .48-.07.72-.12 1-.17 2-.36 3-.55l1.17-.25 1.79-.38 1.32-.3 1.58-.38 1.34-.35 1.47-.39 1.33-.38q.7-.19 1.41-.42l1.3-.39 1.36-.45 1.25-.41 1.39-.5 1.12-.4c14.99-5.64 24.7-13.42 25.51-19.79Z"
-						style={{
-							fill: "url(#s4-linear-gradient-21)",
-							mixBlendMode: "multiply",
-						}}
-					/>
-					<path
-						d="M34.39 104s-2.64-9.33-.27-9.39.27 9.39.27 9.39Z"
-						style={{
-							fill: "url(#s4-linear-gradient-22)",
+							fill: "url(#s4-linear-gradient-27)",
+							opacity: 0.69,
 							mixBlendMode: "screen",
 						}}
 					/>
 					<path
-						d="M110.47 57c-.06 3.94-13.9 10-39.08 10.14-25 .17-38.06-7.45-38-11.39s16.74-6.51 38.26-6.19S110.53 53 110.47 57Z"
+						d="M15 66.4s14-8.07 16.37-2.7S21 74.15 18.35 74 15 66.4 15 66.4Z"
 						style={{
-							opacity: 0.7,
-							fill: "url(#s4-linear-gradient-23)",
+							fill: "url(#s4-linear-gradient-28)",
+							opacity: 0.28,
 							mixBlendMode: "multiply",
 						}}
 					/>
 					<path
-						d="M108.47 54.69c-1 5.05-16.61 11.87-37 11.51s-35.21-7.86-35.82-12.82c-2.48 1.22-6.94 4.88-7 6.35-.09 5.5 19 10.24 42.67 10.59s42.89-3.82 43-9.32c.04-1.47-3.41-5-5.85-6.31Z"
-						style={{ fill: "url(#s4-linear-gradient-24)" }}
+						d="M25 66.82a7.84 7.84 0 1 1-5.55-9.6 7.83 7.83 0 0 1 5.55 9.6Z"
+						style={{ fill: "url(#s4-linear-gradient-29)" }}
 					/>
 					<path
-						d="M34.8 55s4.35 11.5 37.76 12.11 36.89-11.33 36.89-11.33S108 69.72 72.1 68.46 26.14 60.44 34.8 55Z"
+						d="M24 66.54a6.74 6.74 0 1 1-4.78-8.25A6.75 6.75 0 0 1 24 66.54Z"
 						style={{
-							fill: "url(#s4-linear-gradient-25)",
+							fill: "url(#s4-linear-gradient-30)",
+							opacity: 0.67,
+						}}
+					/>
+					<circle
+						cx="17.46"
+						cy="64.8"
+						r="5.52"
+						style={{
+							fill: "url(#s4-linear-gradient-31)",
+							mixBlendMode: "screen",
+						}}
+					/>
+					<path
+						className="s4-cls-29"
+						d="M18.8 58.44c-.25-.78-1.73-1-3.3-.51s-2.66 1.53-2.41 2.32 1.73 1 3.3.51 2.66-1.53 2.41-2.32Z"
+						style={{ opacity: 0.5 }}
+					/>
+					<use
+						style={{ fill: "url(#s4-linear-gradient-32)" }}
+						xlinkHref="#s4-reuse-3"
+					/>
+					<use
+						style={{
+							fill: "url(#s4-linear-gradient-33)",
+							mixBlendMode: "multiply",
+						}}
+						xlinkHref="#s4-reuse-3"
+					/>
+					<path
+						d="M10.14 68.55s.73 3.25 6.38 2.87 7.69-3 7.69-3-2.7 4.28-7.21 4.66-8.63-1.83-6.86-4.53Z"
+						style={{
+							fill: "url(#s4-linear-gradient-34)",
+							opacity: 0.69,
 							mixBlendMode: "screen",
 						}}
 					/>
 					<ellipse
-						cx="73.03"
-						cy="44.19"
-						rx="44.19"
-						ry="48.3"
-						transform="rotate(-89.15 73.026 44.188)"
+						cx="78.49"
+						cy="39.46"
+						rx="43.12"
+						ry="39.45"
+						transform="rotate(-2.01 78.567 39.583)"
 						style={{
 							fill: "url(#s4-radial-gradient-2)",
 							mixBlendMode: "screen",
 						}}
 					/>
 					<path
-						d="M45.44 76.3s13.45-6.85 15.38-1.75-10.16 9.24-12.57 9-2.81-7.25-2.81-7.25Z"
-						style={{
-							fill: "url(#s4-linear-gradient-26)",
-							opacity: 0.29,
-						}}
-					/>
-					<path
-						d="M112.75 67.4s10.53-6.51 12.46-1.4-7.26 8.09-9.67 7.81-2.79-6.41-2.79-6.41Z"
-						style={{
-							fill: "url(#s4-linear-gradient-27",
-							opacity: 0.29,
-						}}
-					/>
-					<path
-						d="M53.7 77.13a7.31 7.31 0 1 1-4.7-9.19 7.31 7.31 0 0 1 4.7 9.19Z"
-						style={{ fill: "url(#s4-linear-gradient-28)" }}
-					/>
-					<path
-						d="M52.72 76.81a6.28 6.28 0 1 1-4.06-7.89 6.27 6.27 0 0 1 4.06 7.89Z"
-						style={{ fill: "url(#s4-linear-gradient-29)" }}
-					/>
-					<path
-						d="M51.64 76.46A5.14 5.14 0 1 1 48.32 70a5.15 5.15 0 0 1 3.32 6.46Z"
-						style={{
-							fill: "url(#s4-linear-gradient-30)",
-							mixBlendMode: "screen",
-						}}
-					/>
-					<path
-						className="s4-cls-5"
-						d="M48.28 69c-.19-.74-1.56-1-3.05-.63s-2.54 1.31-2.34 2 1.56 1 3 .63 2.59-1.22 2.39-2Z"
-						style={{ opacity: 0.25 }}
-					/>
-					<path
-						d="M39.87 77.35s.74 3 5.63 3.13a11.78 11.78 0 0 0 8.2-3.35s1.93 1.09 1.44 2.68-4.59 4.43-10.73 3.7-8.24-4.17-4.54-6.16Z"
-						style={{ fill: "url(#s4-linear-gradient-31)" }}
-					/>
-					<path
-						d="M39.76 78s.53 3 5.79 3 7.29-2.41 7.29-2.41-2.7 3.82-6.93 4S38 80.47 39.76 78Z"
-						style={{
-							fill: "url(#s4-linear-gradient-32)",
-							mixBlendMode: "screen",
-						}}
-					/>
-					<path
-						d="M56.9 78.15A10.67 10.67 0 1 1 50 64.74a10.66 10.66 0 0 1 6.9 13.41Z"
+						d="M70.64 83a11.45 11.45 0 1 1-8.11-14 11.45 11.45 0 0 1 8.11 14Z"
 						style={{
 							fill: "url(#s4-radial-gradient-3)",
 							mixBlendMode: "screen",
 						}}
 					/>
-					<path
-						d="M122.22 68.47a6.63 6.63 0 1 1-4.29-8.33 6.63 6.63 0 0 1 4.29 8.33Z"
-						style={{ fill: "url(#s4-linear-gradient-33)" }}
-					/>
-					<path
-						d="M121.33 68.18a5.69 5.69 0 1 1-3.68-7.18 5.69 5.69 0 0 1 3.68 7.18Z"
-						style={{ fill: "url(#s4-linear-gradient-34)" }}
-					/>
-					<path
-						d="M120.35 67.87a4.66 4.66 0 1 1-3-5.86 4.67 4.67 0 0 1 3 5.86Z"
-						style={{
-							fill: "url(#s4-linear-gradient-35)",
-							mixBlendMode: "screen",
-						}}
-					/>
-					<path
-						className="s4-cls-5"
-						d="M117.3 61.14c-.17-.67-1.41-.93-2.76-.58s-2.31 1.19-2.13 1.86 1.41.93 2.77.57 2.3-1.18 2.12-1.85Z"
-						style={{ opacity: 0.25 }}
-					/>
-					<path
-						d="M109.67 68.67s.67 2.71 5.11 2.84a10.69 10.69 0 0 0 7.44-3s1.75 1 1.3 2.43-4.16 4-9.73 3.36-7.47-3.83-4.12-5.63Z"
-						style={{ fill: "url(#s4-linear-gradient-36)" }}
-					/>
-					<path
-						d="M109.57 69.29s.48 2.78 5.26 2.7 6.61-2.18 6.61-2.18-2.45 3.47-6.29 3.59-7.15-1.9-5.58-4.11Z"
-						style={{
-							fill: "url(#s4-linear-gradient-37)",
-							mixBlendMode: "screen",
-						}}
-					/>
 					<circle
-						cx="115.91"
-						cy="66.44"
-						r="9.67"
-						transform="rotate(-27.42 115.883 66.446)"
+						cx="17.46"
+						cy="64.8"
+						r="11.45"
+						transform="rotate(-30.42 17.475 64.81)"
 						style={{
 							fill: "url(#s4-radial-gradient-4)",
 							mixBlendMode: "screen",
 						}}
 					/>
 					<path
+						d="M41.62 53.34S56.65 71 93.8 64.8c0 0-11.27 10.12-35.74 6.74s-16.44-18.2-16.44-18.2Z"
+						style={{
+							fill: "url(#s4-linear-gradient-35)",
+							opacity: 0.69,
+							mixBlendMode: "screen",
+						}}
+					/>
+					<path
+						d="M44.78 69.17 5.56 83.34l1.27 2.93 2.1 1.66L7.15 84l7.07-2.55 7.67 1.19 17.15-6a1.7 1.7 0 0 0 1.32.63 1.73 1.73 0 1 0-1.72-1.75l-16.87 5.92-5.23-.81 29.91-10.81Z"
+						style={{
+							fill: "url(#s4-linear-gradient-36)",
+							mixBlendMode: "multiply",
+						}}
+					/>
+					<path
+						style={{
+							fill: "url(#s4-linear-gradient-37)",
+							mixBlendMode: "multiply",
+						}}
+						d="m79.49 74.35-1.27.02-8.64 24.56.85 8.06 1.2.06-.84-7.98 8.7-24.72z"
+					/>
+					<path
 						style={{
 							fill: "url(#s4-linear-gradient-38)",
 							mixBlendMode: "multiply",
 						}}
-						d="m59.91 98.57-6.05-8.07 13.46-9.16.15-.01 41.25-2.43.12.05 14.31 6.28-3.03 5.78-1.55.58 3.05-5.82-13.1-5.75-40.83 2.4-12.25 8.34 5.97 7.97-1.5-.16z"
+						d="m132.39 68.94-.4 1.12 22.25 8.17.17-1.34-22.02-7.95z"
 					/>
 					<path
+						d="M84.2 92.56a1.68 1.68 0 0 0-1.11.42l-3.34-3.7 4.1-15.1-1.25.06-4.17 15.36 4.07 4.49a1.11 1.11 0 0 0 0 .19 1.72 1.72 0 1 0 1.72-1.72Z"
 						style={{
 							fill: "url(#s4-linear-gradient-39)",
 							mixBlendMode: "multiply",
 						}}
-						d="m3.12 76.25-.23-1.36 19.42-10.41 1.68-4.76-7.12-1.43 2.42-.64 6.16 1.24-2.25 6.36-.18.11L4.11 75.49l.49 2.33-1.48-1.57z"
 					/>
 					<path
+						d="M131 86.62a1.73 1.73 0 0 0-1.65 1.25L99.41 93h-.18l-5.88 5.67 1.84-.13 4.6-4.43 29.63-5.06a1.74 1.74 0 0 0 1.57 1 1.73 1.73 0 0 0 0-3.45Z"
 						style={{
 							fill: "url(#s4-linear-gradient-40)",
 							mixBlendMode: "multiply",
 						}}
-						d="m59.91 98.57-6.05-8.07 13.46-9.16.15-.01 41.25-2.43.12.05 14.31 6.28-3.03 5.78-.78.18 3.06-5.83-13.77-6.08-40.83 2.4-13.14 8.84 5.97 7.97-.72.08z"
 					/>
 					<path
 						style={{
 							fill: "url(#s4-linear-gradient-41)",
 							mixBlendMode: "multiply",
 						}}
-						d="m3.12 76.25-.23-1.36 19.42-10.41 1.68-4.76-7.12-1.43 1.25-.33 6.6 1.27-1.99 5.64-.19.1L3.63 75.11l.49 2.33-1-1.19z"
+						d="m132.39 68.94-.32.38 22.25 8.17.09-.6-22.02-7.95z"
 					/>
 					<path
-						className="s4-cls-5"
-						d="M95 56.45c.43 1-1.87 3-5.14 4.35s-6.26 1.71-6.69.7 1.87-3 5.14-4.35 6.24-1.7 6.69-.7Z"
-						style={{ opacity: 0.25 }}
+						d="m134.15 74.38 12.65-6a59.23 59.23 0 0 0-5.93-2.54l-12.71 5.45Z"
+						style={{
+							fill: "url(#s4-linear-gradient-42)",
+							mixBlendMode: "multiply",
+						}}
+					/>
+					<use
+						style={{ fill: "url(#s4-linear-gradient-43)" }}
+						xlinkHref="#s4-reuse-4"
+					/>
+					<use
+						style={{
+							fill: "url(#s4-linear-gradient-44)",
+							mixBlendMode: "multiply",
+						}}
+						xlinkHref="#s4-reuse-4"
+					/>
+					<path
+						d="M171.76 39.46c-47.63 8.8-55.08 41.4-55.08 41.4l17.47-6.48c.74-20.46 37.61-34.92 37.61-34.92Z"
+						style={{
+							fill: "url(#s4-linear-gradient-45)",
+							mixBlendMode: "multiply",
+						}}
+					/>
+					<path
+						d="M124.83 54.53s-13.43 9.06-12.51 17.29 12.51-17.29 12.51-17.29Z"
+						style={{
+							fill: "url(#s4-linear-gradient-46)",
+							opacity: 0.28,
+							mixBlendMode: "screen",
+						}}
+					/>
+					<path
+						d="M131 86.62a1.73 1.73 0 0 0-1.65 1.25L99.41 93h-.18l-5.88 5.67 1.53-.67 4.6-4.44 29.94-5.21a1.72 1.72 0 0 0 1.57 1 1.22 1.22 0 0 0 1.33-1.23 1.32 1.32 0 0 0-1.32-1.5Z"
+						style={{
+							fill: "url(#s4-linear-gradient-47)",
+							mixBlendMode: "multiply",
+						}}
+					/>
+					<path
+						style={{
+							fill: "url(#s4-linear-gradient-48)",
+							mixBlendMode: "multiply",
+						}}
+						d="m78.86 74.36-.64.01-8.64 24.56.85 8.06.57.07-.85-7.98 8.71-24.72z"
+					/>
+					<path
+						d="M83.87 93.27a1.65 1.65 0 0 0-1.12.42l-3.66-4.41 4.1-15.1-.59.06-4.17 15.36 4.07 4.49a1.11 1.11 0 0 0 0 .19A1.72 1.72 0 0 0 84.2 96a1.18 1.18 0 0 0 1.14-1.32 1.36 1.36 0 0 0-1.47-1.41Z"
+						style={{
+							fill: "url(#s4-linear-gradient-49)",
+							mixBlendMode: "multiply",
+						}}
+					/>
+					<path
+						d="M44.78 69.17 5.56 83.34l1.27 2.93 1.3 1.33-1.78-3.91 8.18-3 7.35 1.19 17.16-6a1.7 1.7 0 0 0 1.32.63c1 0 1.54-.57 1.49-1.31a1.44 1.44 0 0 0-1.49-1.45 1.72 1.72 0 0 0-1.72 1.7l-16.87 5.99-6-1.14 29.89-10.8Z"
+						style={{
+							fill: "url(#s4-linear-gradient-50)",
+							mixBlendMode: "multiply",
+						}}
 					/>
 				</g>
 			</g>

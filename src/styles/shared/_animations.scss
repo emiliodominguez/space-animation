@@ -1,0 +1,24 @@
+@use '../variables';
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes reveal {
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes float {
+	0%,
+	100% {
+		transform: translate(0, 0);
+	}
+
+	50% {
+		transform: translate(0, 5px);
+	}
+}

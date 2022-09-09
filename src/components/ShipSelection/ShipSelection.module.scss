@@ -1,10 +1,130 @@
-.shipSelection {
+@use '../../styles/variables';
+@use '../../styles/shared';
+
+.toggler {
+	@extend %btn-reset;
+
+	position: fixed;
+	bottom: variables.size(m);
+	right: variables.size(m);
+	z-index: variables.z-index(high);
+	opacity: 0.5;
+	transition: opacity ease 250ms;
+
+	&:hover {
+		opacity: 1;
+	}
+
+	svg {
+		height: 50px;
+	}
+}
+
+.container {
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100vw;
 	height: 100vh;
 	overflow-y: auto;
-	background-color: rgba(#000, 0.75);
+	background-color: rgba(#000, 0.5);
 	backdrop-filter: blur(15px);
+	z-index: variables.z-index(important);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: variables.size(l);
+}
+
+.ship {
+	transform-origin: center;
+	animation: select-ship ease forwards 500ms;
+
+	svg {
+		height: 40vh;
+		animation: float ease infinite 1s;
+	}
+}
+
+.navigation {
+	.thumb {
+		@extend %btn-reset;
+
+		width: 75px;
+		padding: variables.size(s);
+		filter: grayscale(1);
+		opacity: 0.75;
+		transition: filter ease 500ms, opacity ease 250ms;
+
+		&:hover {
+			filter: grayscale(0.5);
+		}
+
+		&.selected {
+			opacity: 1;
+			filter: grayscale(0);
+		}
+
+		svg {
+			height: 40px;
+			margin: 0 auto;
+		}
+	}
+}
+
+.selectBtn {
+	$color: #fee810;
+	$contrast: #000;
+
+	@extend %btn-reset;
+
+	position: relative;
+	font-size: variables.size(l);
+	color: $color;
+	margin-top: variables.size(m);
+	padding: variables.size(i) variables.size(l);
+	transition: color ease 150ms;
+	z-index: variables.z-index(basic);
+
+	&,
+	&::before {
+		border-radius: variables.size(s);
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: $color;
+		transform: scale(0);
+		transform-origin: center;
+		transition: transform ease-out 150ms;
+		z-index: variables.z-index(negative);
+	}
+
+	&:focus,
+	&:hover {
+		color: $contrast;
+
+		&::before {
+			transform: scale(1);
+		}
+	}
+}
+
+@keyframes select-ship {
+	from {
+		transform: scale(0) rotate(-10deg);
+		opacity: 0;
+	}
+
+	to {
+		transform: scale(1) rotate(0);
+		opacity: 1;
+	}
 }
