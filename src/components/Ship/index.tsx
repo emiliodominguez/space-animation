@@ -1,16 +1,18 @@
-import { IShip } from "../../interfaces";
-import { className } from "../../shared";
-import styles from "./Ship.module.scss";
+import { CSSProperties, forwardRef, ForwardedRef } from 'react';
+import { IShip } from '../../interfaces';
+import { className } from '../../shared';
+import styles from './Ship.module.scss';
 
 interface ShipProps {
 	ship: IShip;
 	className?: string;
+	style?: CSSProperties;
 }
 
-export function Ship(props: ShipProps): JSX.Element {
+export const Ship = forwardRef((props: ShipProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
 	return (
-		<div {...className(styles.ship, props.className)}>
+		<div ref={ref} style={props.style} {...className(styles.ship, props.className)}>
 			{props.ship.sprite}
 		</div>
 	);
-}
+});

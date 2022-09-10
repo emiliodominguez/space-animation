@@ -49,7 +49,7 @@ export function ShipSelection(props: ShipSelectionProps): JSX.Element {
 					setSelectedShip(currentShip);
 					props.close();
 				}}>
-				Select
+				Select this ship
 			</button>
 		</div>
 	);

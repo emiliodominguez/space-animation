@@ -1,1 +1,2 @@
-export * from "./ship";
+export * from './animated-item';
+export * from './ship';

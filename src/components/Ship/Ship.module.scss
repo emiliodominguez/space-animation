@@ -1,8 +1,10 @@
 @use '../../styles/shared';
 
 .ship {
+	--ship-height: 25vh;
+
 	svg {
 		display: block;
-		height: 25vh;
+		height: var(--ship-height);
 	}
 }

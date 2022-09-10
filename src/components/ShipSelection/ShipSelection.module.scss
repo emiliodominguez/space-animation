@@ -16,7 +16,7 @@
 	}
 
 	svg {
-		height: 50px;
+		--ship-height: 50px;
 	}
 }
 
@@ -43,7 +43,8 @@
 	animation: select-ship ease forwards 500ms;
 
 	svg {
-		height: 40vh;
+		--ship-height: 40vh;
+
 		animation: float ease infinite 1s;
 	}
 }
@@ -68,7 +69,8 @@
 		}
 
 		svg {
-			height: 40px;
+			--ship-height: 40px;
+
 			margin: 0 auto;
 		}
 	}

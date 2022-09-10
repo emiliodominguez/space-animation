@@ -1,0 +1,57 @@
+@use '../../styles/variables';
+@use '../../styles/shared';
+
+.ship {
+	--ship-x: -50%;
+	--ship-y: 0;
+
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translate(var(--ship-x), var(--ship-y));
+	transition: transform ease 500ms;
+	z-index: variables.z-index(basic);
+
+	$steam-color: #f00, #ff8c00, rgba(#ffc400, 0.5), rgba(#ffee00, 0.25);
+
+	&::before,
+	&::after {
+		content: '';
+		position: absolute;
+		left: 50%;
+		transform-origin: top;
+		transform: translateX(-50%) scale(0);
+		transition: transform ease 1s;
+		z-index: variables.z-index(negative);
+	}
+
+	&::before {
+		top: calc(100% - 80px);
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		background-image: radial-gradient(circle, $steam-color);
+		mix-blend-mode: screen;
+		filter: blur(10px);
+	}
+
+	&::after {
+		top: 50%;
+		width: 75px;
+		height: 500px;
+		background-image: linear-gradient($steam-color);
+	}
+
+	&.flying {
+		--ship-y: -25vh;
+
+		&::before,
+		&::after {
+			transform: translateX(-50%) scale(1, 1);
+		}
+
+		svg {
+			animation: float ease infinite 1s;
+		}
+	}
+}
