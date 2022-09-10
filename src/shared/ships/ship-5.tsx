@@ -632,18 +632,6 @@ export const ship5 = (
 				d="M62.78 27.86a33.88 33.88 0 0 0-3-3.9c-4.6-2.52-13.78-4.24-24.45-4.24-11.17 0-20.77 1.9-25.07 4.62a32.58 32.58 0 0 0-2.4 3.08 33.13 33.13 0 1 0 54.92.44Z"
 				style={{ fill: 'url(#s5-linear-gradient-6)' }}
 			/>
-			<ellipse
-				cx="33"
-				cy="21.92"
-				rx="27.08"
-				ry="21.82"
-				transform="rotate(-8.1 31.424 21.494)"
-				style={{
-					opacity: 0.64,
-					fill: 'url(#s5-radial-gradient)',
-					mixBlendMode: 'screen'
-				}}
-			/>
 			<path d="m53.52 72.5.95-.74Z" style={{ fill: 'url(#s5-linear-gradient-7)' }} />
 			<path d="m44.77 77.34.16-.06Z" style={{ fill: 'url(#s5-linear-gradient-8)' }} />
 			<path d="M66.29 54.05Z" style={{ fill: 'url(#s5-linear-gradient-9)' }} />

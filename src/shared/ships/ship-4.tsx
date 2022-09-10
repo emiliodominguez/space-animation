@@ -458,17 +458,6 @@ export const ship4 = (
 						mixBlendMode: 'screen'
 					}}
 				/>
-				<ellipse
-					cx="78.49"
-					cy="39.46"
-					rx="43.12"
-					ry="39.45"
-					transform="rotate(-2.01 78.567 39.583)"
-					style={{
-						fill: 'url(#s4-radial-gradient-2)',
-						mixBlendMode: 'screen'
-					}}
-				/>
 				<path
 					d="M70.64 83a11.45 11.45 0 1 1-8.11-14 11.45 11.45 0 0 1 8.11 14Z"
 					style={{

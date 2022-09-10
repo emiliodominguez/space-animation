@@ -403,17 +403,6 @@ export const ship3 = (
 			/>
 			<path className="s3-cls-3" d="m40.18 108.52.48 5s3.27 3.27 7 1l.53-5.79Z" />
 			<path className="s3-cls-14" d="M70.35 32.39c0 1.41-12.89 2.55-28.79 2.55s-28.8-1.14-28.8-2.55 12.89-2.54 28.8-2.54S70.35 31 70.35 32.39Z" />
-			<ellipse
-				cx="41.54"
-				cy="24.9"
-				rx="24.9"
-				ry="27.22"
-				transform="rotate(-89.15 41.544 24.9)"
-				style={{
-					fill: 'url(#s3-radial-gradient-2)',
-					mixBlendMode: 'screen'
-				}}
-			/>
 			<path style={{ fill: 'url(#s3-linear-gradient-19)' }} d="m66.63 36.14 10.46 67.24H6.49l10.46-67.24h49.68z" />
 			<ellipse cx="41.79" cy="36.14" rx="24.84" ry="3.71" style={{ fill: 'url(#s3-linear-gradient-20)' }} />
 			<circle cx="41.95" cy="35.42" r="24.68" transform="rotate(-41.73 41.953 35.416)" style={{ fill: 'url(#s3-linear-gradient-21)' }} />

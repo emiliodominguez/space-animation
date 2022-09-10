@@ -21,25 +21,27 @@
 		left: 50%;
 		transform-origin: top;
 		transform: translateX(-50%) scale(0);
-		transition: transform ease 1s;
-		z-index: variables.z-index(negative);
+		transition: transform ease 750ms;
 	}
 
 	&::before {
-		top: calc(100% - 80px);
-		width: 80px;
-		height: 80px;
+		top: 70%;
+		width: 30%;
+		height: 30%;
 		border-radius: 50%;
+		opacity: 0.5;
 		background-image: radial-gradient(circle, $steam-color);
 		mix-blend-mode: screen;
 		filter: blur(10px);
+		z-index: variables.z-index(basic);
 	}
 
 	&::after {
 		top: 50%;
-		width: 75px;
+		width: 25%;
 		height: 500px;
 		background-image: linear-gradient($steam-color);
+		z-index: variables.z-index(negative);
 	}
 
 	&.flying {

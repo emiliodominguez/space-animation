@@ -43,17 +43,22 @@
 	animation: select-ship ease forwards 500ms;
 
 	svg {
-		--ship-height: 40vh;
+		--ship-height: 30vh;
 
 		animation: float ease infinite 1s;
 	}
 }
 
 .navigation {
+	max-width: 500px;
+	margin: 0 auto;
+
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+
 	.thumb {
 		@extend %btn-reset;
 
-		width: 75px;
 		padding: variables.size(s);
 		filter: grayscale(1);
 		opacity: 0.75;
@@ -83,7 +88,7 @@
 	@extend %btn-reset;
 
 	position: relative;
-	font-size: variables.size(l);
+	font-size: clamp(variables.size(i), 5vw, variables.size(l));
 	color: $color;
 	margin-top: variables.size(m);
 	padding: variables.size(i) variables.size(l);

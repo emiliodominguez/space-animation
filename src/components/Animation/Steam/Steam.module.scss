@@ -11,13 +11,14 @@
 
 	&.visible {
 		svg {
+			opacity: 0.95;
 			transform: translateY(0);
 		}
 	}
 
 	&.hidden {
 		svg {
-			opacity: 0 !important;
+			opacity: 0;
 			transform: translateY(100%);
 		}
 	}
@@ -25,26 +26,25 @@
 	svg {
 		position: absolute;
 		bottom: 0;
-		height: 200px;
+		height: 20vh;
 		transform: translateY(100%);
 		opacity: 0;
 		transition: transform ease 500ms, opacity ease 250ms;
 		filter: drop-shadow(0 -5px 10px rgba(#000, 0.25));
 
 		&:nth-child(1) {
-			left: 0;
 			opacity: 0.5;
+			left: 25%;
 		}
 
 		&:nth-child(2) {
-			left: 25%;
-			opacity: 0.75;
+			left: 0;
 			transition-delay: 150ms;
 		}
 
 		&:nth-child(3) {
 			right: 0;
-			opacity: 0.85;
+			opacity: 0.8;
 			transition-delay: 75ms;
 		}
 	}
