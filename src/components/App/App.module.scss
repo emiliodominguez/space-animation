@@ -9,8 +9,7 @@
 	bottom: 0;
 	left: 50%;
 	transform: translate(var(--ship-x), var(--ship-y));
-	transition: transform ease 500ms;
-	z-index: variables.z-index(basic);
+	z-index: variables.z-index(important);
 
 	$steam-color: #f00, #ff8c00, rgba(#ffc400, 0.5), rgba(#ffee00, 0.25), #0000;
 
@@ -24,17 +23,14 @@
 		transform-origin: top;
 		transform: translateX(-50%) scale(0);
 		transition: transform ease 750ms;
-		border-radius: 0 0 50% 50%;
 		background-image: linear-gradient($steam-color);
 		z-index: variables.z-index(negative);
 	}
 
 	&.flying {
-		--ship-y: -25vh;
-
 		&::after {
 			transform: translateX(-50%) scale(1, 1);
-			animation: fly ease-in-out forwards 500ms 750ms;
+			animation: fly ease-in-out forwards 500ms 1s;
 		}
 
 		svg {
@@ -45,6 +41,7 @@
 
 @keyframes fly {
 	to {
-		transform: translateX(-50%) scale(1.5, 0.35);
+		transform: translateX(-50%) scale(1.25, 0.35);
+		border-radius: 0 0 50% 50%;
 	}
 }

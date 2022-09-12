@@ -233,12 +233,12 @@ export const ship5 = (
 				id="s5-reuse-29"
 			/>
 			<path
+				id="s5-reuse-30"
 				d="m29.7 78.63.7.16Z"
 				style={{
 					fill: 'url(#s5-linear-gradient-108)',
 					mixBlendMode: 'multiply'
 				}}
-				id="s5-reuse-30"
 			/>
 			<path
 				d="M33.19 79.24h-.93l-.41-.07h-.12l-.51-.17h-.11l-.61-.12h-.1l-.7-.16h-.08l-.81-.21c-6.93-1.86-19.93-7.75-25.32-26l22.34 95.59 7.43-68.86Z"
@@ -247,8 +247,8 @@ export const ship5 = (
 			/>
 			<path d="M36.81 47.63c.07 8.35 1.13 103.25 1.13 103.25 3.15-69.04-1.13-103.25-1.13-103.25Z" style={{ fill: 'url(#s5-linear-gradient-113)' }} id="s5-reuse-32" />
 			<path d="M36.81 47.63s4.28 34.21 1.13 103.25c8.55-94.68-1.16-106.96-1.13-103.25Z" style={{ fill: 'url(#s5-linear-gradient-115)' }} id="s5-reuse-33" />
-			<path className="s5-cls-143" d="M29.74 111.82 19.62 95.68V74.44l.82.49v20.51l9.45 15.01-.15 1.37z" id="s5-reuse-34" />
-			<path className="s5-cls-144" d="m41.4 112.1-.21-1.21 9.72-15.45V74.31l.76-.49.06 21.86L41.4 112.1z" id="s5-reuse-35" />
+			<path d="M29.74 111.82 19.62 95.68V74.44l.82.49v20.51l9.45 15.01-.15 1.37z" id="s5-reuse-34" />
+			<path d="m41.4 112.1-.21-1.21 9.72-15.45V74.31l.76-.49.06 21.86L41.4 112.1z" id="s5-reuse-35" />
 		</defs>
 		<defs>
 			<linearGradient id="s5-linear-gradient" x1="16.65" y1="26.85" x2="68.62" y2="26.85" gradientTransform="rotate(59.61 31.028 24.842)" gradientUnits="userSpaceOnUse">
@@ -612,7 +612,7 @@ export const ship5 = (
 					mixBlendMode: 'screen'
 				}}
 			/>
-			<path className="s5-cls-5" d="M30 14.27c.56 1.3-1.05 3.23-3.59 4.32s-5.05.91-5.61-.4 1.06-3.23 3.6-4.32 5.05-.87 5.6.4Z" style={{ opacity: 0.25 }} />
+			<path d="M30 14.27c.56 1.3-1.05 3.23-3.59 4.32s-5.05.91-5.61-.4 1.06-3.23 3.6-4.32 5.05-.87 5.6.4Z" style={{ opacity: 0.25 }} />
 			<g style={{ mixBlendMode: 'multiply', opacity: 0.24 }}>
 				<path
 					d="M34.7 45.34A26 26 0 0 1 11 26.39a26 26 0 1 0 50.12 10.78 25.68 25.68 0 0 0-.94-8.31A26 26 0 0 1 34.7 45.34Z"
@@ -627,7 +627,7 @@ export const ship5 = (
 					mixBlendMode: 'multiply'
 				}}
 			/>
-			<path className="s5-cls-5" d="M51.21 41.1c.3.71-1.33 2.09-3.64 3.07s-4.43 1.21-4.73.5 1.32-2.09 3.63-3.08 4.43-1.21 4.74-.49Z" />
+			<path d="M51.21 41.1c.3.71-1.33 2.09-3.64 3.07s-4.43 1.21-4.73.5 1.32-2.09 3.63-3.08 4.43-1.21 4.74-.49Z" />
 			<path
 				d="M62.78 27.86a33.88 33.88 0 0 0-3-3.9c-4.6-2.52-13.78-4.24-24.45-4.24-11.17 0-20.77 1.9-25.07 4.62a32.58 32.58 0 0 0-2.4 3.08 33.13 33.13 0 1 0 54.92.44Z"
 				style={{ fill: 'url(#s5-linear-gradient-6)' }}
@@ -987,7 +987,7 @@ export const ship5 = (
 					}}
 				/>
 			</g>
-			<path className="s5-cls-83" d="m44.47 148.1-6.53-58.57s8.3 50.22 6.53 58.57Z" />
+			<path d="m44.47 148.1-6.53-58.57s8.3 50.22 6.53 58.57Z" />
 			<path d="M32.68 79.18Z" style={{ fill: 'url(#s5-linear-gradient-78)' }} />
 			<path d="M33.19 79.24Z" style={{ fill: 'url(#s5-linear-gradient-79)' }} />
 			<path d="M33 79.22Z" style={{ fill: 'url(#s5-linear-gradient-80)' }} />
@@ -1184,7 +1184,7 @@ export const ship5 = (
 				}}
 				xlinkHref="#s5-reuse-33"
 			/>
-			<path className="s5-cls-83" d="M2 46.17S-4.79 71.33 25.83 148.1c0 0-34.43-76.68-23.83-101.93ZM36.81 47.63l1.13 103.25s-3.61-92.61-1.13-103.25Z" />
+			<path d="M2 46.17S-4.79 71.33 25.83 148.1c0 0-34.43-76.68-23.83-101.93ZM36.81 47.63l1.13 103.25s-3.61-92.61-1.13-103.25Z" />
 			<path d="M7 28.42a1.56 1.56 0 1 1-2.19-.2 1.55 1.55 0 0 1 2.19.2Z" style={{ fill: 'url(#s5-linear-gradient-118)' }} />
 			<path d="M6.79 28.56a1.34 1.34 0 1 1-1.88-.17 1.32 1.32 0 0 1 1.88.17Z" style={{ fill: 'url(#s5-linear-gradient-119)' }} />
 			<path
@@ -1194,7 +1194,7 @@ export const ship5 = (
 					mixBlendMode: 'screen'
 				}}
 			/>
-			<path className="s5-cls-5" d="M4.89 28.47c-.16 0-.37.16-.47.47s0 .61.1.66.36-.16.46-.47.02-.61-.09-.66Z" />
+			<path d="M4.89 28.47c-.16 0-.37.16-.47.47s0 .61.1.66.36-.16.46-.47.02-.61-.09-.66Z" />
 			<path
 				d="M5.42 30.93s.62.21 1.2-.65A2.51 2.51 0 0 0 7 28.42s.42-.22.64 0a2.23 2.23 0 0 1-.64 2.4c-.79 1.02-1.65 1-1.58.11Z"
 				style={{ fill: 'url(#s5-linear-gradient-121)' }}
@@ -1222,7 +1222,7 @@ export const ship5 = (
 					mixBlendMode: 'screen'
 				}}
 			/>
-			<path className="s5-cls-5" d="M64.74 29.17c.13-.11.05-.4-.16-.65s-.49-.36-.61-.26 0 .4.16.65.49.36.61.26Z" />
+			<path d="M64.74 29.17c.13-.11.05-.4-.16-.65s-.49-.36-.61-.26 0 .4.16.65.49.36.61.26Z" />
 			<path d="M62.37 28.33s-.51.41-.08 1.37A2.53 2.53 0 0 0 63.7 31s0 .47-.39.52-1.31-.52-1.7-1.75.03-1.97.76-1.44Z" style={{ fill: 'url(#s5-linear-gradient-126)' }} />
 			<path
 				d="M62.23 28.37s-.54.38 0 1.38a2.13 2.13 0 0 0 1.14 1.18 2.09 2.09 0 0 1-1.4-1c-.46-.76-.38-1.68.26-1.56Z"
@@ -1293,10 +1293,10 @@ export const ship5 = (
 					mixBlendMode: 'screen'
 				}}
 			/>
-			<use className="s5-cls-143" xlinkHref="#s5-reuse-34" />
-			<use className="s5-cls-144" xlinkHref="#s5-reuse-35" />
-			<use className="s5-cls-143" xlinkHref="#s5-reuse-34" />
-			<use className="s5-cls-144" xlinkHref="#s5-reuse-35" />
+			<use xlinkHref="#s5-reuse-34" />
+			<use xlinkHref="#s5-reuse-35" />
+			<use xlinkHref="#s5-reuse-34" />
+			<use xlinkHref="#s5-reuse-35" />
 		</g>
 	</svg>
 );

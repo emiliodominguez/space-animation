@@ -1,3 +1,5 @@
+@use './shared';
+
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap');
 
 *,
@@ -12,6 +14,8 @@
 }
 
 html {
+	@extend %hide-scrollbar;
+
 	min-height: 500vh;
 	background-image: linear-gradient(#3bafd5, #1d61b5, #003370, #1c082f, #150515, #000);
 }

@@ -291,22 +291,20 @@ export const ship4 = (
 						mixBlendMode: 'screen'
 					}}
 				/>
-				<path className="s4-cls-5" d="M79.64 84.39c1 2.14-1.71 5.63-6.16 7.8s-8.89 2.18-9.94 0 1.72-5.62 6.17-7.79 8.89-2.15 9.93-.01Z" />
+				<path d="M79.64 84.39c1 2.14-1.71 5.63-6.16 7.8s-8.89 2.18-9.94 0 1.72-5.62 6.17-7.79 8.89-2.15 9.93-.01Z" />
 				<ellipse cx="80.33" cy="104.48" rx="29.64" ry="8.48" style={{ fill: 'url(#s4-linear-gradient-4)}' }} />
-				<ellipse cx="80.33" cy="104.48" rx="29.64" ry="8.48" style={{ fill: 'url(#s4-linear-gradient-5)' }} className="s4-cls-8" />
-				<g className="s4-cls-8">
-					<ellipse cx="80.33" cy="101.48" rx="31.81" ry="8.48" style={{ fill: 'url(#s4-linear-gradient-6)' }} />
-					<ellipse
-						cx="80.33"
-						cy="101.48"
-						rx="31.81"
-						ry="8.48"
-						style={{
-							fill: 'url(#s4-linear-gradient-6)',
-							mixBlendMode: 'multiply'
-						}}
-					/>
-				</g>
+				<ellipse cx="80.33" cy="104.48" rx="29.64" ry="8.48" style={{ fill: 'url(#s4-linear-gradient-5)' }} />
+				<ellipse cx="80.33" cy="101.48" rx="31.81" ry="8.48" style={{ fill: 'url(#s4-linear-gradient-6)' }} />
+				<ellipse
+					cx="80.33"
+					cy="101.48"
+					rx="31.81"
+					ry="8.48"
+					style={{
+						fill: 'url(#s4-linear-gradient-6)',
+						mixBlendMode: 'multiply'
+					}}
+				/>
 				<use style={{ fill: 'url(#s4-linear-gradient-8)' }} xlinkHref="#s4-reuse-0" />
 				<use
 					style={{
@@ -362,7 +360,6 @@ export const ship4 = (
 					}}
 				/>
 				<path
-					className="s4-cls-5"
 					d="M80.87 30.7c-.07 3.63-7.21 6.44-16 6.27s-15.76-3.23-15.7-6.86 7.21-6.44 16-6.27 15.77 3.23 15.7 6.86ZM109.59 32.08c0 2.35-2.88 4.21-6.34 4.14s-6.23-2-6.18-4.37 2.88-4.21 6.34-4.15 6.22 2.03 6.18 4.38Z"
 					style={{ opacity: 0.25 }}
 				/>
@@ -375,7 +372,7 @@ export const ship4 = (
 					}}
 				/>
 				<use style={{ fill: 'url(#s4-linear-gradient-19)' }} xlinkHref="#s4-reuse-1" />
-				<use style={{ fill: 'url(#s4-linear-gradient-20)' }} className="s4-cls-8" xlinkHref="#s4-reuse-1" />
+				<use style={{ fill: 'url(#s4-linear-gradient-20)' }} xlinkHref="#s4-reuse-1" />
 				<path
 					d="M57.07 81.63s14.06-8.08 16.41-2.7-10.41 10.45-13 10.28-3.41-7.58-3.41-7.58Z"
 					style={{
@@ -399,7 +396,7 @@ export const ship4 = (
 						mixBlendMode: 'screen'
 					}}
 				/>
-				<path className="s4-cls-29" d="M60.91 73.67c-.25-.79-1.73-1-3.3-.52S55 74.69 55.2 75.47s1.73 1 3.31.52 2.65-1.54 2.4-2.32Z" style={{ opacity: 0.5 }} />
+				<path d="M60.91 73.67c-.25-.79-1.73-1-3.3-.52S55 74.69 55.2 75.47s1.73 1 3.31.52 2.65-1.54 2.4-2.32Z" style={{ opacity: 0.5 }} />
 				<use style={{ fill: 'url(#s4-linear-gradient-25)' }} xlinkHref="#s4-reuse-2" />
 				<use
 					style={{
@@ -441,7 +438,7 @@ export const ship4 = (
 						mixBlendMode: 'screen'
 					}}
 				/>
-				<path className="s4-cls-29" d="M18.8 58.44c-.25-.78-1.73-1-3.3-.51s-2.66 1.53-2.41 2.32 1.73 1 3.3.51 2.66-1.53 2.41-2.32Z" style={{ opacity: 0.5 }} />
+				<path d="M18.8 58.44c-.25-.78-1.73-1-3.3-.51s-2.66 1.53-2.41 2.32 1.73 1 3.3.51 2.66-1.53 2.41-2.32Z" style={{ opacity: 0.5 }} />
 				<use style={{ fill: 'url(#s4-linear-gradient-32)' }} xlinkHref="#s4-reuse-3" />
 				<use
 					style={{

@@ -1,0 +1,31 @@
+@use '../../../../styles/variables';
+
+.world {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+
+	.sky,
+	.floor {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	.sky {
+		top: 0;
+		height: 100%;
+		opacity: var(--sky-opacity, 1);
+	}
+
+	.floor {
+		bottom: 0;
+		height: 25%;
+		z-index: variables.z-index(basic);
+		transform: translateY(var(--floor-y, 0));
+	}
+}
