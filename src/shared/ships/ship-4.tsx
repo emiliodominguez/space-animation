@@ -465,16 +465,6 @@ export const ship4 = (
 						mixBlendMode: 'screen'
 					}}
 				/>
-				<circle
-					cx="17.46"
-					cy="64.8"
-					r="11.45"
-					transform="rotate(-30.42 17.475 64.81)"
-					style={{
-						fill: 'url(#s4-radial-gradient-4)',
-						mixBlendMode: 'screen'
-					}}
-				/>
 				<path
 					d="M41.62 53.34S56.65 71 93.8 64.8c0 0-11.27 10.12-35.74 6.74s-16.44-18.2-16.44-18.2Z"
 					style={{

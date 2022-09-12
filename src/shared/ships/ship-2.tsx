@@ -348,13 +348,6 @@ export const ship2 = (
 					mixBlendMode: 'screen'
 				}}
 			/>
-			<path
-				d="M44.57 58.8a10.66 10.66 0 1 1-6.89-13.42 10.66 10.66 0 0 1 6.89 13.42Z"
-				style={{
-					fill: 'url(#s2-radial-gradient)',
-					mixBlendMode: 'screen'
-				}}
-			/>
 			<circle cx="72.31" cy="49.06" r="36.74" transform="rotate(-66.46 72.31 49.063)" style={{ fill: 'url(#s2-linear-gradient-6)' }} />
 			<circle
 				cx="72.31"
@@ -433,10 +426,6 @@ export const ship2 = (
 					opacity: 0.68,
 					mixBlendMode: 'lighten'
 				}}
-			/>
-			<path
-				d="M113.08 87.9 93.51 67.19s-5.72 2.09-23.8 2.57L65.76 91.5c2.29.1 4.61.18 6.95.21a181.58 181.58 0 0 0 40.37-3.81Z"
-				style={{ fill: 'url(#s2-linear-gradient-19),opacity:.29' }}
 			/>
 			<path
 				d="M143.66 72a5.18 5.18 0 0 0 .09-.78 6.9 6.9 0 0 1-.09.78Z"

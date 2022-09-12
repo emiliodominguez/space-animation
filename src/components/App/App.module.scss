@@ -12,34 +12,19 @@
 	transition: transform ease 500ms;
 	z-index: variables.z-index(basic);
 
-	$steam-color: #f00, #ff8c00, rgba(#ffc400, 0.5), rgba(#ffee00, 0.25);
+	$steam-color: #f00, #ff8c00, rgba(#ffc400, 0.5), rgba(#ffee00, 0.25), #0000;
 
-	&::before,
 	&::after {
 		content: '';
 		position: absolute;
+		top: 50%;
 		left: 50%;
+		width: 25%;
+		height: 500px;
 		transform-origin: top;
 		transform: translateX(-50%) scale(0);
 		transition: transform ease 750ms;
-	}
-
-	&::before {
-		top: 70%;
-		width: 30%;
-		height: 30%;
-		border-radius: 50%;
-		opacity: 0.5;
-		background-image: radial-gradient(circle, $steam-color);
-		mix-blend-mode: screen;
-		filter: blur(10px);
-		z-index: variables.z-index(basic);
-	}
-
-	&::after {
-		top: 50%;
-		width: 25%;
-		height: 500px;
+		border-radius: 0 0 50% 50%;
 		background-image: linear-gradient($steam-color);
 		z-index: variables.z-index(negative);
 	}
@@ -47,13 +32,19 @@
 	&.flying {
 		--ship-y: -25vh;
 
-		&::before,
 		&::after {
 			transform: translateX(-50%) scale(1, 1);
+			animation: fly ease-in-out forwards 500ms 750ms;
 		}
 
 		svg {
 			animation: float ease infinite 1s;
 		}
+	}
+}
+
+@keyframes fly {
+	to {
+		transform: translateX(-50%) scale(1.5, 0.35);
 	}
 }
