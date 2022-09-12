@@ -1,0 +1,17 @@
+@use '../../../styles/shared';
+
+.planet {
+	position: fixed;
+	top: var(--planet-y, 0.5vh);
+	right: var(--planet-x, 0.5vw);
+	opacity: var(--planet-opacity, 0.1);
+	transform-origin: center;
+	animation: orbit ease infinite 1000s;
+
+	svg {
+		height: 25vh;
+		// transform-origin: top right;
+		transform: scale(var(--planet-scale, 0.1));
+		filter: drop-shadow(0 0 25px rgba(#d3f1ff, 0.25));
+	}
+}

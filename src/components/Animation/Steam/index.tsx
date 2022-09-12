@@ -1,6 +1,6 @@
-import { useScroll } from '../../../../contexts';
-import { AnimatedItem } from '../../../../interfaces';
-import { className } from '../../../../shared';
+import { useScroll } from '../../../contexts';
+import { AnimatedItem } from '../../../interfaces';
+import { className } from '../../../shared';
 import { clouds } from './clouds';
 import styles from './Steam.module.scss';
 
