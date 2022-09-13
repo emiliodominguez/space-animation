@@ -1,6 +1,6 @@
 import { useScroll, useShip } from '../../contexts';
 import { clamp, className } from '../../shared';
-import { World, Steam, MillersPlanet, Earth } from '../Animation';
+import { Space, World, Steam, MillersPlanet, Earth } from '../Animation';
 import { Ship } from '../Ship';
 import styles from './App.module.scss';
 
@@ -15,6 +15,7 @@ export function App(): JSX.Element {
 				{...className(styles.ship, { [styles.flying]: percentage > 0 })}
 				style={{ '--ship-y': `${-clamp(percentage, 0, 25)}vh` } as Record<string, string>}
 			/>
+			<Space />
 			<World />
 			<Steam />
 			<MillersPlanet />

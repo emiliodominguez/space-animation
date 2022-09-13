@@ -13,7 +13,7 @@ export function Steam(props: SteamProps): JSX.Element {
 		<div
 			{...className(styles.steam, {
 				[styles.visible]: props.visible || percentage > 0,
-				[styles.hidden]: props.hidden || percentage > 15
+				[styles.hidden]: props.hidden || percentage > 10
 			})}>
 			{clouds.map(cloud => cloud)}
 		</div>

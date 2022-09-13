@@ -13,8 +13,8 @@ export function Earth(): JSX.Element {
 				{
 					'--planet-y': `${clamp(5 * normalized, 2, 5)}vh`,
 					'--planet-x': `${clamp(20 * normalized, 2, 10)}vw`,
-					'--planet-opacity': `${clamp(normalized * 1.15, 0.1, 1)}`,
-					'--planet-scale': `${clamp(3 * normalized, 0.1, 3)}`
+					'--planet-opacity': `${clamp(normalized * 2, 0.1, 1)}`,
+					'--planet-scale': `${clamp(normalized * 3, 0.35, 3)}`
 				} as Record<string, string>
 			}>
 			{planet}

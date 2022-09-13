@@ -11,10 +11,10 @@ export function MillersPlanet(): JSX.Element {
 			className={styles.planet}
 			style={
 				{
-					'--planet-y': `${clamp(150 * normalized, 2, 150)}vh`,
-					'--planet-x': `${clamp(25 * normalized, 2, 15)}vw`,
-					'--planet-opacity': `${clamp(normalized * 3, 0.25, 1)}`,
-					'--planet-scale': `${clamp(normalized * 2, 0.25, 0.85)}`
+					'--planet-y': `${125 * normalized}vh`,
+					'--planet-x': `${25 * normalized}vw`,
+					'--planet-opacity': `${clamp(normalized * 5, 0.35, 1)}`,
+					'--planet-scale': `${clamp(normalized * 5, 0.25, 1)}`
 				} as Record<string, string>
 			}>
 			{planet}
