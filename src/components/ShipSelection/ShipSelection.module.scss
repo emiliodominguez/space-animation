@@ -82,17 +82,17 @@
 }
 
 .selectBtn {
-	$color: #fee810;
-	$contrast: #000;
+	$color: #9a15a3;
+	$contrast: #fff;
 
 	@extend %btn-reset;
 
 	position: relative;
 	font-size: clamp(variables.size(i), 5vw, variables.size(l));
-	color: $color;
+	color: $contrast;
+	text-transform: uppercase;
 	margin-top: variables.size(m);
 	padding: variables.size(i) variables.size(l);
-	transition: color ease 150ms;
 	z-index: variables.z-index(basic);
 
 	&,

@@ -3,6 +3,8 @@
 .ship {
 	--ship-height: 25vh;
 
+	position: relative;
+
 	svg {
 		display: block;
 		height: var(--ship-height);

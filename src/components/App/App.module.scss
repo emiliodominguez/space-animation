@@ -13,7 +13,7 @@
 
 	$steam-color: #f00, #ff8c00, rgba(#ffc400, 0.5), rgba(#ffee00, 0.25), #0000;
 
-	&::after {
+	&::before {
 		content: '';
 		position: absolute;
 		top: 50%;
@@ -28,7 +28,7 @@
 	}
 
 	&.flying {
-		&::after {
+		&::before {
 			transform: translateX(-50%) scale(1, 1);
 			animation: fly ease-in-out forwards 500ms 1s;
 		}
@@ -37,11 +37,111 @@
 			animation: float ease infinite 1s;
 		}
 	}
+
+	&.enterPlanet {
+		animation: enter-planet ease forwards 2s;
+	}
+}
+
+.bubble {
+	$side-offset: 45%;
+	$tip-offset: 15px;
+
+	position: absolute;
+	bottom: 75%;
+	width: 175px;
+	background-color: #fff;
+	font-size: 14px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	border-radius: variables.size(i);
+	box-shadow: 0 4px 8px rgba(#000, 0.5);
+	padding: variables.size(i);
+	transform-origin: bottom;
+	animation: scale ease forwards 250ms;
+
+	&:not(.toLeft) {
+		left: $side-offset;
+
+		&::before {
+			left: $tip-offset;
+		}
+	}
+
+	&.toLeft {
+		right: $side-offset;
+		text-align: right;
+
+		&::before {
+			right: $tip-offset;
+		}
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 99%;
+		width: 0;
+		height: 0;
+		border: 8px solid transparent;
+		border-top-color: #fff;
+		z-index: variables.z-index(basic);
+	}
+}
+
+.curtain {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	opacity: 0;
+	background-image: radial-gradient(circle, #222, #000);
+	z-index: variables.z-index(important);
+	animation: finish ease forwards 500ms 1s;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: variables.size(m);
+
+	h1 {
+		color: #fff;
+		font-size: 40px;
+		opacity: 0;
+		animation: reveal ease forwards 500ms 1s;
+	}
+
+	button {
+		@extend %btn-reset;
+		color: #04de9c;
+	}
 }
 
 @keyframes fly {
 	to {
 		transform: translateX(-50%) scale(1.25, 0.35);
 		border-radius: 0 0 50% 50%;
+	}
+}
+
+@keyframes enter-planet {
+	0% {
+		transform: translate(var(--ship-x), var(--ship-y));
+	}
+
+	25% {
+		transform: translate(var(--ship-x), calc(var(--ship-y) + 5vh));
+	}
+
+	100% {
+		transform: translate(calc(var(--ship-x) + 10vw), calc(var(--ship-y) - 100vh)) rotate(10deg);
+	}
+}
+
+@keyframes finish {
+	to {
+		opacity: 1;
 	}
 }

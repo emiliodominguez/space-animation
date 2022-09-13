@@ -10,6 +10,7 @@
 	box-sizing: border-box;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
+	user-select: none;
 	font-family: 'DynaPuff', cursive;
 }
 
@@ -18,4 +19,5 @@ html {
 
 	min-height: 750vh;
 	background-image: linear-gradient(#150515, #0c0c0d);
+	scroll-behavior: smooth;
 }
