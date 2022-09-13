@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/space-animation/static/css/main.b6f8ba5c.css",
+    "main.js": "/space-animation/static/js/main.f8e79fa7.js",
+    "static/js/787.0b7660bd.chunk.js": "/space-animation/static/js/787.0b7660bd.chunk.js",
+    "index.html": "/space-animation/index.html",
+    "main.b6f8ba5c.css.map": "/space-animation/static/css/main.b6f8ba5c.css.map",
+    "main.f8e79fa7.js.map": "/space-animation/static/js/main.f8e79fa7.js.map",
+    "787.0b7660bd.chunk.js.map": "/space-animation/static/js/787.0b7660bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6f8ba5c.css",
+    "static/js/main.f8e79fa7.js"
+  ]
+}
